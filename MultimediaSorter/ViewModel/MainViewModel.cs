@@ -12,6 +12,7 @@ namespace MultimediaSorter.ViewModel
     public class MainViewModel : ViewModelBase
     {
         private HandlesEvent _handlesEvent = new HandlesEvent();
+
         public MainViewModel()
         {
             ProcessedFiles = new ObservableCollection<string>();
@@ -23,8 +24,9 @@ namespace MultimediaSorter.ViewModel
 
             ProcessNotStarted = true;
         }
-        
+
         private string _filePath;
+
         public string FilePath
         {
             get => _filePath;
@@ -36,8 +38,9 @@ namespace MultimediaSorter.ViewModel
                 Settings.Default.Save();
             }
         }
-        
+
         private string _savePath;
+
         public string SavePath
         {
             get => _savePath;
@@ -49,8 +52,9 @@ namespace MultimediaSorter.ViewModel
                 Settings.Default.Save();
             }
         }
-        
+
         private string _dirMask;
+
         public string DirMask
         {
             get => _dirMask;
@@ -63,8 +67,9 @@ namespace MultimediaSorter.ViewModel
                 Settings.Default.Save();
             }
         }
-        
+
         private string _extensionFilter;
+
         public string ExtensionFilter
         {
             get => _extensionFilter;
@@ -75,8 +80,9 @@ namespace MultimediaSorter.ViewModel
                 Settings.Default.Save();
             }
         }
-        
+
         private bool _moveFiles;
+
         public bool MoveFiles
         {
             get => _moveFiles;
@@ -87,8 +93,9 @@ namespace MultimediaSorter.ViewModel
                 Settings.Default.Save();
             }
         }
-        
+
         private bool _searchInSubFolder;
+
         public bool SearchInSubFolder
         {
             get => _searchInSubFolder;
@@ -99,22 +106,22 @@ namespace MultimediaSorter.ViewModel
                 Settings.Default.Save();
             }
         }
-        
+
         public bool IsValid
         {
             get
             {
                 return Directory.Exists(FilePath) &&
                        Directory.Exists(SavePath) &&
-                       !string.IsNullOrWhiteSpace(DirMask) && 
+                       !string.IsNullOrWhiteSpace(DirMask) &&
                        !DirMask.ToCharArray().Any(ch => Path.GetInvalidPathChars().Contains(ch)) &&
                        !string.IsNullOrWhiteSpace(ExtensionFilter);
             }
         }
-        
+
         public string SampleDirName
         {
-            get 
+            get
             {
                 try
                 {
@@ -134,6 +141,7 @@ namespace MultimediaSorter.ViewModel
         public double ProgressPrecent => ProgressValue != 0 ? ProgressValue / 100 : 0;
 
         private double _progressValue;
+
         public double ProgressValue
         {
             get => _progressValue;
@@ -143,8 +151,9 @@ namespace MultimediaSorter.ViewModel
                 OnPropertyChanged(nameof(ProgressPrecent));
             }
         }
-        
+
         private bool _processStarted;
+
         public bool ProcessStarted
         {
             get => _processStarted;
@@ -152,25 +161,29 @@ namespace MultimediaSorter.ViewModel
         }
 
         private bool _processNotStarted;
+
         public bool ProcessNotStarted
         {
             get => _processNotStarted;
             private set => SetProperty(ref _processNotStarted, value);
         }
-        
+
         private TaskbarItemProgressState _progressState;
+
         public TaskbarItemProgressState ProgressState
         {
             get => _progressState;
             private set => SetProperty(ref _progressState, value);
         }
-        
+
         private double _fileCount;
+
         public double FileCount
         {
             get => _fileCount;
             set => SetProperty(ref _fileCount, value);
         }
+
         private async void StartProcessing()
         {
             ProcessedFiles.Clear();
@@ -181,7 +194,7 @@ namespace MultimediaSorter.ViewModel
             await _handlesEvent.StartSortingAsync();
             ProgressState = TaskbarItemProgressState.None;
             ProgressValue = 0;
-            _fileCount = 0;
+            FileCount = 0;
             ProcessStarted = false;
             ProcessNotStarted = true;
             MessageBox.Show(Resources.SortComplite, Application.Current.MainWindow?.Title, MessageBoxButton.OK,
@@ -195,6 +208,7 @@ namespace MultimediaSorter.ViewModel
             get => _needStop;
             set => SetProperty(ref _needStop, value);
         }
+
         private void StopProcessing()
         {
             NeedStop = true;

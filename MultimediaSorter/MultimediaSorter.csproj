@@ -55,6 +55,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Commands\RelayCommand.cs" />
     <Compile Include="Helpers\HandlesEvent.cs" />
     <Compile Include="Helpers\OldWindow.cs" />
     <Compile Include="Helpers\FileManagement.cs" />
@@ -84,9 +85,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Commands" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="View\MainWindow.xaml">

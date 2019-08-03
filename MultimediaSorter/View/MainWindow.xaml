@@ -10,7 +10,7 @@
         <TaskbarItemInfo ProgressState="{Binding ProgressState, Mode=OneWay}"
                          ProgressValue="{Binding ProgressPrecent, Mode=OneWay}" />
     </Window.TaskbarItemInfo>
-<!-- TODO ReDesign -->
+    <!-- TODO ReDesign -->
     <DockPanel Margin="30">
         <StackPanel DockPanel.Dock="Top">
             <Grid Margin="5" VerticalAlignment="Center">

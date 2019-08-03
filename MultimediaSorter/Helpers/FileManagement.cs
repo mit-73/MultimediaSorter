@@ -11,7 +11,7 @@ namespace MultimediaSorter.Helpers
     public class FileManagement
     {
         private MainViewModel _mainViewModel = new MainViewModel();
-        
+
         public string GetFolderName(string filePath)
         {
             using (var photo = File.Open(filePath, FileMode.Open, FileAccess.Read))

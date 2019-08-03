@@ -30,7 +30,9 @@ namespace MultimediaSorter.Helpers
             }, StringSplitOptions.RemoveEmptyEntries);
             if (!extensions.Any())
                 return;
-            Array.ForEach(extensions, ext => files.AddRange(dirInfo.GetFiles(ext, _mainViewModel.SearchInSubFolder ? SearchOption.AllDirectories : SearchOption.TopDirectoryOnly)));
+            Array.ForEach(extensions,
+                ext => files.AddRange(dirInfo.GetFiles(ext,
+                    _mainViewModel.SearchInSubFolder ? SearchOption.AllDirectories : SearchOption.TopDirectoryOnly)));
             _mainViewModel.FileCount = files.Count;
             for (var i = 0; i < files.Count; i++)
             {
@@ -51,6 +53,7 @@ namespace MultimediaSorter.Helpers
                     ReportProgress(i + 1, ex.Message);
                     continue;
                 }
+
                 ReportProgress(i + 1, files[i].Name);
             }
         }
@@ -59,7 +62,8 @@ namespace MultimediaSorter.Helpers
         private void ReportProgress(int progressPrecent, string fileName)
         {
             _mainViewModel.ProgressValue = progressPrecent / _mainViewModel.FileCount * 100d;
-            Application.Current.Dispatcher.Invoke(() => _mainViewModel.ProcessedFiles.Add(fileName), DispatcherPriority.DataBind);
+            Application.Current.Dispatcher.Invoke(() => _mainViewModel.ProcessedFiles.Add(fileName),
+                DispatcherPriority.DataBind);
         }
     }
 }
