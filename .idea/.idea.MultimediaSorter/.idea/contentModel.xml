@@ -10,7 +10,11 @@
         <e p="App.xaml.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Commands" t="Include" />
-        <e p="Helpers" t="Include" />
+        <e p="Helpers" t="Include">
+          <e p="FileManagement.cs" t="Include" />
+          <e p="HandlesEvent.cs" t="Include" />
+          <e p="OldWindow.cs" t="Include" />
+        </e>
         <e p="Model" t="Include">
           <e p="MainModel.cs" t="Include" />
         </e>

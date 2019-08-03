@@ -1,18 +1,24 @@
 using System;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
+using System.Windows;
 using System.Windows.Shell;
+using MultimediaSorter.Helpers;
 using MultimediaSorter.Properties;
 
 namespace MultimediaSorter.ViewModel
 {
     public class MainViewModel : ViewModelBase
     {
+        private HandlesEvent _handlesEvent = new HandlesEvent();
         public MainViewModel()
         {
+            ProcessedFiles = new ObservableCollection<string>();
             _filePath = Settings.Default.FilePath;
             _dirMask = Settings.Default.DirMask;
             _savePath = Settings.Default.SavePath;
+            _moveFiles = Settings.Default.MoveFiles;
             _extensionFilter = Settings.Default.ExtensionFilter;
 
             ProcessNotStarted = true;
@@ -22,7 +28,7 @@ namespace MultimediaSorter.ViewModel
         public string FilePath
         {
             get => _filePath;
-            private set
+            set
             {
                 SetProperty(ref _filePath, value);
                 OnPropertyChanged(nameof(IsValid));
@@ -35,7 +41,7 @@ namespace MultimediaSorter.ViewModel
         public string SavePath
         {
             get => _savePath;
-            private set
+            set
             {
                 SetProperty(ref _savePath, value);
                 OnPropertyChanged(nameof(IsValid));
@@ -122,14 +128,16 @@ namespace MultimediaSorter.ViewModel
                 }
             }
         }
-        
+
+        public ObservableCollection<string> ProcessedFiles { get; }
+
         public double ProgressPrecent => ProgressValue != 0 ? ProgressValue / 100 : 0;
 
         private double _progressValue;
         public double ProgressValue
         {
             get => _progressValue;
-            private set
+            set
             {
                 SetProperty(ref _progressValue, value);
                 OnPropertyChanged(nameof(ProgressPrecent));
@@ -155,6 +163,41 @@ namespace MultimediaSorter.ViewModel
         {
             get => _progressState;
             private set => SetProperty(ref _progressState, value);
+        }
+        
+        private double _fileCount;
+        public double FileCount
+        {
+            get => _fileCount;
+            set => SetProperty(ref _fileCount, value);
+        }
+        private async void StartProcessing()
+        {
+            ProcessedFiles.Clear();
+            ProgressState = TaskbarItemProgressState.Normal;
+            OnPropertyChanged(nameof(TaskbarItemProgressState));
+            ProcessStarted = true;
+            ProcessNotStarted = false;
+            await _handlesEvent.StartSortingAsync();
+            ProgressState = TaskbarItemProgressState.None;
+            ProgressValue = 0;
+            _fileCount = 0;
+            ProcessStarted = false;
+            ProcessNotStarted = true;
+            MessageBox.Show(Resources.SortComplite, Application.Current.MainWindow?.Title, MessageBoxButton.OK,
+                MessageBoxImage.Information);
+        }
+
+        private bool _needStop;
+
+        public bool NeedStop
+        {
+            get => _needStop;
+            set => SetProperty(ref _needStop, value);
+        }
+        private void StopProcessing()
+        {
+            NeedStop = true;
         }
     }
 }
