@@ -26,7 +26,7 @@ namespace MultimediaSorter.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string PhotoPath {
+        public string FilePath {
             get {
                 return ((string)(this["FilePath"]));
             }

@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MultimediaSorter"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="600">
+        Title="MainWindow" MinHeight="500" MinWidth="600" Height="500" Width="600">
     <Window.TaskbarItemInfo>
         <TaskbarItemInfo ProgressState="{Binding ProgressState, Mode=OneWay}"
                          ProgressValue="{Binding ProgressPrecent, Mode=OneWay}" />
     </Window.TaskbarItemInfo>
-
+<!-- TODO ReDesign -->
     <DockPanel Margin="30">
         <StackPanel DockPanel.Dock="Top">
             <Grid Margin="5" VerticalAlignment="Center">
@@ -21,7 +21,7 @@
                 </Grid.ColumnDefinitions>
 
                 <Label Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center">Путь к файлам:</Label>
-                <TextBox Text="{Binding FilePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1"
+                <TextBox Text="{Binding FilePath, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1"
                          IsReadOnly="{Binding ProcessStarted}" Margin="0,0,5,0" />
                 <Button Command="{Binding SelectFilePathCommand}" ToolTip="Выбрать путь, где находятся фотографии"
                         Grid.Column="2" />
@@ -35,7 +35,7 @@
                 </Grid.ColumnDefinitions>
 
                 <Label Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center">Путь к сохранению:</Label>
-                <TextBox Text="{Binding SavePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1"
+                <TextBox Text="{Binding SavePath, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1"
                          IsReadOnly="{Binding ProcessStarted}" Margin="0,0,5,0" />
                 <Button Command="{Binding SelectSavePathCommand}" ToolTip="Выбрать путь, куда фотографии перенесутся"
                         Grid.Column="2" />
@@ -48,7 +48,7 @@
                 </Grid.ColumnDefinitions>
 
                 <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center">Расширение файла:</Label>
-                <TextBox Text="{Binding ExtensionFilter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                <TextBox Text="{Binding ExtensionFilter, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
                          Grid.Column="1" ToolTip="Для нескольких расширений, разделить ;" VerticalAlignment="Bottom" />
             </Grid>
 
@@ -64,7 +64,7 @@
                 </Grid.ColumnDefinitions>
 
                 <Label Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center">Маска наименовая папки:</Label>
-                <TextBox Text="{Binding DirMask, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1"
+                <TextBox Text="{Binding DirMask, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1"
                          ToolTip="{Binding DirMaskToolTip, Mode=OneTime}" />
                 <TextBlock Text="{Binding SampleDirName, Mode=OneWay}" Grid.Column="2" TextAlignment="Left"
                            Margin="10,0,0,0" VerticalAlignment="Center" />
