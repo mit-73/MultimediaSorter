@@ -14,14 +14,9 @@ namespace MultimediaSorter.Commands
             _predicate = predicate;
         }
 
-        public bool CanExecute(object parameter)
+        public bool CanExecute(object parameter = null)
         {
             return _predicate == null || _predicate(parameter);
-        }
-
-        public bool CanExecute()
-        {
-            return CanExecute(null);
         }
 
         public event EventHandler CanExecuteChanged
@@ -30,14 +25,9 @@ namespace MultimediaSorter.Commands
             remove => CommandManager.RequerySuggested -= value;
         }
 
-        public void Execute(object parameter)
+        public void Execute(object parameter = null)
         {
             _action(parameter);
-        }
-
-        public void Execute()
-        {
-            Execute(null);
         }
     }
 }

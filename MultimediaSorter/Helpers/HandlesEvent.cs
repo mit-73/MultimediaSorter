@@ -11,8 +11,8 @@ namespace MultimediaSorter.Helpers
 {
     public class HandlesEvent
     {
-        private MainViewModel _mainViewModel = new MainViewModel();
-        FileManagement _getFolder = new FileManagement();
+        private MainViewModel _mainViewModel;
+        private FileManagement _getFolder;
 
         public Task StartSortingAsync()
         {
@@ -57,8 +57,7 @@ namespace MultimediaSorter.Helpers
                 ReportProgress(i + 1, files[i].Name);
             }
         }
-
-
+        
         private void ReportProgress(int progressPrecent, string fileName)
         {
             _mainViewModel.ProgressValue = progressPrecent / _mainViewModel.FileCount * 100d;

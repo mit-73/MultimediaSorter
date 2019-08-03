@@ -1,20 +1,17 @@
 using System.IO;
-using System.Windows.Forms;
-using System.Windows.Interop;
+using Microsoft.Win32;
 using MultimediaSorter.Properties;
 using MultimediaSorter.ViewModel;
-using PhotoSorter;
-using Application = System.Windows.Application;
 
 namespace MultimediaSorter.Helpers
 {
     public class FileManagement
     {
-        private MainViewModel _mainViewModel = new MainViewModel();
+        private MainViewModel _mainViewModel;
 
         public string GetFolderName(string filePath)
         {
-            using (var photo = File.Open(filePath, FileMode.Open, FileAccess.Read))
+            using (var fileStream = File.Open(filePath, FileMode.Open, FileAccess.Read))
             {
                 try
                 {
@@ -29,63 +26,55 @@ namespace MultimediaSorter.Helpers
                         return dt.ToString(_dirMask);
                     }
                     */
-                    photo.Flush();
-                    photo.Close();
-                    var fi = new FileInfo(filePath);
+                    fileStream.Flush();
+                    fileStream.Close();
+                    var fileInfo = new FileInfo(filePath);
 
-                    if (fi.CreationTime >= fi.LastWriteTime)
+                    if (fileInfo.CreationTime >= fileInfo.LastWriteTime)
                     {
-                        return fi.LastWriteTime.ToString(_mainViewModel.DirMask);
+                        return fileInfo.LastWriteTime.ToString(_mainViewModel.DirMask);
                     }
-                    else if (fi.CreationTime <= fi.LastWriteTime)
+                    else if (fileInfo.CreationTime <= fileInfo.LastWriteTime)
                     {
-                        return fi.CreationTime.ToString(_mainViewModel.DirMask);
+                        return fileInfo.CreationTime.ToString(_mainViewModel.DirMask);
                     }
-                    else return fi.CreationTime.ToString(_mainViewModel.DirMask);
+                    else return fileInfo.CreationTime.ToString(_mainViewModel.DirMask);
                 }
                 catch
                 {
-                    photo.Flush();
-                    photo.Close();
-                    var fi = new FileInfo(filePath);
-                    var fi1 = fi.CreationTime.ToString(_mainViewModel.DirMask);
-                    var fi2 = fi.LastWriteTime.ToString(_mainViewModel.DirMask);
+                    fileStream.Flush();
+                    fileStream.Close();
+                    var fileInfo = new FileInfo(filePath);
+                    var fileCreationTime = fileInfo.CreationTime.ToString(_mainViewModel.DirMask);
+                    var fileWriteTime = fileInfo.LastWriteTime.ToString(_mainViewModel.DirMask);
 
-                    if (fi1 == fi2)
+                    if (fileCreationTime == fileWriteTime)
                     {
-                        return fi1;
+                        return fileCreationTime;
                     }
-                    else return fi2;
+                    else return fileWriteTime;
                 }
             }
         }
 
-        private void SelectFilePath()
+        public void SelectFilePath()
         {
-            using (var dlg = new FolderBrowserDialog())
-            {
-                dlg.Description = Resources.SelectFilePath;
-                dlg.ShowNewFolderButton = true;
-                dlg.SelectedPath = _mainViewModel.FilePath;
-                var oldWindow = new OldWindow(new WindowInteropHelper(Application.Current.MainWindow).Handle);
-                if (dlg.ShowDialog(oldWindow) != DialogResult.OK)
-                    return;
-                _mainViewModel.FilePath = dlg.SelectedPath;
-            }
+            var openFileDialog = new OpenFileDialog();
+            openFileDialog.Title = Resources.SelectFilePath;
+            openFileDialog.FileName = _mainViewModel.FilePath;
+            var result = openFileDialog.ShowDialog();
+            if (result == false) return;
+            _mainViewModel.FilePath = openFileDialog.FileName;
         }
-
-        private void SelectSavePath()
+        
+        public void SelectSavePath()
         {
-            using (var dlg = new FolderBrowserDialog())
-            {
-                dlg.Description = Resources.SelectSaveFilePath;
-                dlg.ShowNewFolderButton = true;
-                dlg.SelectedPath = _mainViewModel.SavePath;
-                var oldWindow = new OldWindow(new WindowInteropHelper(Application.Current.MainWindow).Handle);
-                if (dlg.ShowDialog(oldWindow) != DialogResult.OK)
-                    return;
-                _mainViewModel.SavePath = dlg.SelectedPath;
-            }
+            var saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Title = Resources.SelectSaveFilePath;
+            saveFileDialog.FileName = _mainViewModel.SavePath;
+            var result = saveFileDialog.ShowDialog();
+            if (result == false) return;
+            _mainViewModel.SavePath = saveFileDialog.FileName;
         }
     }
 }

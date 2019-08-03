@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Windows;
 using System.Windows.Shell;
+using MultimediaSorter.Commands;
 using MultimediaSorter.Helpers;
 using MultimediaSorter.Properties;
 
@@ -11,7 +12,10 @@ namespace MultimediaSorter.ViewModel
 {
     public class MainViewModel : ViewModelBase
     {
-        private HandlesEvent _handlesEvent = new HandlesEvent();
+        //TODO Refactoring
+        
+        private HandlesEvent _handlesEvent;
+        private FileManagement _fileManagement;
 
         public MainViewModel()
         {
@@ -23,6 +27,26 @@ namespace MultimediaSorter.ViewModel
             _extensionFilter = Settings.Default.ExtensionFilter;
 
             ProcessNotStarted = true;
+        }
+
+        public RelayCommand SelectFilePathCommand
+        {
+            get { return new RelayCommand(o => _fileManagement.SelectFilePath(), o => !ProcessStarted); }
+        }
+
+        public RelayCommand SelectSavePathCommand
+        {
+            get { return new RelayCommand(o => _fileManagement.SelectSavePath(), o => !ProcessStarted); }
+        }
+
+        public RelayCommand StartProcessingCommand
+        {
+            get { return new RelayCommand(o => StartProcessing(), o => !ProcessStarted && IsValid); }
+        }
+
+        public RelayCommand StopProcessingCommand
+        {
+            get { return new RelayCommand(o => StopProcessing(), o => ProcessStarted); }
         }
 
         private string _filePath;
