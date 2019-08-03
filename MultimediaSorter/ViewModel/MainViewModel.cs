@@ -7,6 +7,16 @@ namespace MultimediaSorter.ViewModel
 {
     public class MainViewModel : ViewModelBase
     {
+        public MainViewModel()
+        {
+            _filePath = Settings.Default.FilePath;
+            _dirMask = Settings.Default.DirMask;
+            _savePath = Settings.Default.SavePath;
+            _extensionFilter = Settings.Default.ExtensionFilter;
+
+            ProcessNotStarted = true;
+        }
+        
         private string _filePath;
         public string FilePath
         {
@@ -87,6 +97,33 @@ namespace MultimediaSorter.ViewModel
                     return Resources.NotCorrectMask;
                 }
             }
+        }
+        
+        public double ProgressPrecent => ProgressValue != 0 ? ProgressValue / 100 : 0;
+
+        private double _progressValue;
+        public double ProgressValue
+        {
+            get => _progressValue;
+            private set
+            {
+                SetProperty(ref _progressValue, value);
+                OnPropertyChanged(nameof(ProgressPrecent));
+            }
+        }
+        
+        private bool _processStarted;
+        public bool ProcessStarted
+        {
+            get => _processStarted;
+            private set => SetProperty(ref _processStarted, value);
+        }
+
+        private bool _processNotStarted;
+        public bool ProcessNotStarted
+        {
+            get => _processNotStarted;
+            private set => SetProperty(ref _processNotStarted, value);
         }
     }
 }
