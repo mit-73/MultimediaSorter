@@ -20,11 +20,14 @@ namespace MultimediaSorter.ViewModel
         public MainViewModel()
         {
             ProcessedFiles = new ObservableCollection<string>();
+            
             _filePath = Settings.Default.FilePath;
             _dirMask = Settings.Default.DirMask;
             _savePath = Settings.Default.SavePath;
             _moveFiles = Settings.Default.MoveFiles;
             _extensionFilter = Settings.Default.ExtensionFilter;
+            
+            _dirMaskToolTip = Resources.DirMaskToolTip;
 
             ProcessNotStarted = true;
         }
@@ -77,21 +80,6 @@ namespace MultimediaSorter.ViewModel
             }
         }
 
-        private string _dirMask;
-
-        public string DirMask
-        {
-            get => _dirMask;
-            set
-            {
-                SetProperty(ref _dirMask, value);
-                OnPropertyChanged(nameof(SampleDirName));
-                OnPropertyChanged(nameof(IsValid));
-                Settings.Default.DirMask = value;
-                Settings.Default.Save();
-            }
-        }
-
         private string _extensionFilter;
 
         public string ExtensionFilter
@@ -130,19 +118,33 @@ namespace MultimediaSorter.ViewModel
                 Settings.Default.Save();
             }
         }
+        
+        private string _dirMask;
 
-        public bool IsValid
+        public string DirMask
         {
-            get
+            get => _dirMask;
+            set
             {
-                return Directory.Exists(FilePath) &&
-                       Directory.Exists(SavePath) &&
-                       !string.IsNullOrWhiteSpace(DirMask) &&
-                       !DirMask.ToCharArray().Any(ch => Path.GetInvalidPathChars().Contains(ch)) &&
-                       !string.IsNullOrWhiteSpace(ExtensionFilter);
+                SetProperty(ref _dirMask, value);
+                OnPropertyChanged(nameof(SampleDirName));
+                OnPropertyChanged(nameof(IsValid));
+                Settings.Default.DirMask = value;
+                Settings.Default.Save();
             }
         }
 
+        private string _dirMaskToolTip;
+
+        public string DirMaskToolTip
+        {
+            get => _dirMaskToolTip;
+            set
+            {
+                SetProperty(ref _dirMaskToolTip, value);
+            }
+        }
+        
         public string SampleDirName
         {
             get
@@ -157,6 +159,18 @@ namespace MultimediaSorter.ViewModel
                 {
                     return Resources.NotCorrectMask;
                 }
+            }
+        }
+
+        public bool IsValid
+        {
+            get
+            {
+                return Directory.Exists(FilePath) &&
+                       Directory.Exists(SavePath) &&
+                       !string.IsNullOrWhiteSpace(DirMask) &&
+                       !DirMask.ToCharArray().Any(ch => Path.GetInvalidPathChars().Contains(ch)) &&
+                       !string.IsNullOrWhiteSpace(ExtensionFilter);
             }
         }
 
