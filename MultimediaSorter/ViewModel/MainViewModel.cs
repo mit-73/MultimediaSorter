@@ -61,7 +61,7 @@ namespace MultimediaSorter.ViewModel
         private string _extensionFilter;
         public string ExtensionFilter
         {
-            get { return _extensionFilter; }
+            get => _extensionFilter;
             set
             {
                 SetProperty(ref _extensionFilter, value);
@@ -78,6 +78,18 @@ namespace MultimediaSorter.ViewModel
             {
                 SetProperty(ref _moveFiles, value);
                 Settings.Default.MoveFiles = value;
+                Settings.Default.Save();
+            }
+        }
+        
+        private bool _searchInSubFolder;
+        public bool SearchInSubFolder
+        {
+            get => _searchInSubFolder;
+            set
+            {
+                SetProperty(ref _searchInSubFolder, value);
+                Settings.Default.SearchInSubFolder = value;
                 Settings.Default.Save();
             }
         }
@@ -141,14 +153,8 @@ namespace MultimediaSorter.ViewModel
         private TaskbarItemProgressState _progressState;
         public TaskbarItemProgressState ProgressState
         {
-            get
-            {
-                return _progressState;
-            }
-            private set
-            {
-                SetProperty(ref _progressState, value);
-            }
+            get => _progressState;
+            private set => SetProperty(ref _progressState, value);
         }
     }
 }

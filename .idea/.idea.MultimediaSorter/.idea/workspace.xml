@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="965466ee-e8bd-47cb-881a-1374da1b73a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MultimediaSorter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultimediaSorter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModel/MainViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/ViewModel/MainViewModel.cs" afterDir="false" />
-    </list>
+    <list default="true" id="965466ee-e8bd-47cb-881a-1374da1b73a1" name="Default Changelist" comment="" />
     <list id="ec557f02-5864-4eff-8dd2-f749e19be4fd" name="init" comment="init">
       <changelist_data name="MiT" email="73ilnar73@gmail.com" date="1564822246000" />
       <change beforePath="$PROJECT_DIR$/MultimediaSorter/MultimediaSorter.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/MultimediaSorter.csproj" afterDir="false" />
@@ -38,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MultimediaSorter/View/MainWindow.xaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="1122">
               <caret line="66" column="24" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="24" />
               <folding>
                 <marker date="1564828512677" expanded="true" signature="0:5468" ph="&lt;&lt;Window.TaskbarItemInfo&gt;&#10;        &lt;TaskbarItemInfo ProgressState=&quot;{Binding ProgressState, Mode=OneWay}&quot;&#10;                         ProgressValue=&quot;{Binding ProgressPrecent, Mode=OneWay}&quot; /&gt;&#10;    &lt;/Window.TaskbarItemInfo&gt; &lt;DockPanel Margin=&quot;30&quot;&gt;&#10;        &lt;StackPanel DockPanel.Dock=&quot;Top&quot;&gt;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к файлам:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding FilePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt;&#10;                &lt;Button Command=&quot;{Binding SelectFilePathCommand}&quot; ToolTip=&quot;Выбрать путь, где находятся фотографии&quot;&#10;                        Grid.Column=&quot;2&quot; /&gt;&#10;            &lt;/Grid&gt;&#10;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к сохранению:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding SavePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt;&#10;                &lt;Button Command=&quot;{Binding SelectSavePathCommand}&quot; ToolTip=&quot;Выбрать путь, куда фотографии перенесутся&quot;&#10;                        Grid.Column=&quot;2&quot; /&gt;&#10;            &lt;/Grid&gt;&#10;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;                &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Расширение файла:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding ExtensionFilter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                         Grid.Column=&quot;1&quot; ToolTip=&quot;Для нескольких расширений, разделить ;&quot; VerticalAlignment=&quot;Bottom&quot; /&gt;&#10;            &lt;/Grid&gt;&#10;&#10;            &lt;CheckBox Margin=&quot;5&quot; Content=&quot;Искать в вложенных папках&quot;&#10;                      IsChecked=&quot;{Binding SearchInSubFolder, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                      IsEnabled=&quot;{Binding ProcessNotStarted, Mode=OneWay}&quot; /&gt;&#10;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;160&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Маска наименовая папки:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding DirMask, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         ToolTip=&quot;{Binding DirMaskToolTip, Mode=OneTime}&quot; /&gt;&#10;                &lt;TextBlock Text=&quot;{Binding SampleDirName, Mode=OneWay}&quot; Grid.Column=&quot;2&quot; TextAlignment=&quot;Left&quot;&#10;                           Margin=&quot;10,0,0,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;            &lt;/Grid&gt;&#10;&#10;            &lt;CheckBox Margin=&quot;5&quot; Content=&quot;Перемещать файлы&quot;&#10;                      IsChecked=&quot;{Binding MoveFiles, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                      IsEnabled=&quot;{Binding ProcessNotStarted, Mode=OneWay}&quot; /&gt;&#10;&#10;            &lt;Grid&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;                &lt;Button Grid.Column=&quot;0&quot; Margin=&quot;5&quot; Command=&quot;{Binding StartProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot;&gt;&#10;                        &lt;TextBlock Text=&quot;Запуск&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt;&#10;                &lt;Button Grid.Column=&quot;1&quot; Margin=&quot;5&quot; Command=&quot;{Binding StopProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot;&gt;&#10;                        &lt;TextBlock Text=&quot;Стоп&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt;&#10;&#10;            &lt;ProgressBar Value=&quot;{Binding ProgressValue, Mode=OneWay}&quot; Height=&quot;25&quot; Maximum=&quot;100&quot; Minimum=&quot;0&quot; Margin=&quot;5&quot; /&gt;&#10;        &lt;/StackPanel&gt;&#10;&#10;        &lt;ListBox DockPanel.Dock=&quot;Bottom&quot; ItemsSource=&quot;{Binding ProcessedFiles, Mode=OneWay}&quot; /&gt;&#10;    &lt;/DockPanel&gt;.../&gt;" />
@@ -77,31 +74,36 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MultimediaSorter/ViewModel/MainViewModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="294">
+              <caret line="139" column="8" lean-forward="true" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
               <folding>
-                <marker date="1564829044814" expanded="true" signature="6:84" ph="..." />
-                <marker date="1564829044814" expanded="true" signature="122:3808" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="171:3806" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="208:483" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="557:854" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="621:844" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="928:1225" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="992:1215" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="1297:1641" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="1352:1631" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="1729:2016" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="1800:2006" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="2053:2454" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="2079:2444" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="2499:2989" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="2526:2979" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="2560:2854" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="2893:2965" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="3161:3384" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="3230:3374" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="3466:3590" ph="{...}" />
-                <marker date="1564829044814" expanded="true" signature="3670:3800" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="6:112" ph="..." />
+                <marker date="1564829291560" expanded="true" signature="150:4458" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="199:4456" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="236:511" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="585:882" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="649:872" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="956:1253" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="1020:1243" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="1325:1669" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="1380:1659" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="1757:2023" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="1828:2013" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="2095:2335" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="2152:2325" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="2372:2773" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="2398:2763" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="2818:3308" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="2845:3298" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="2879:3173" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="3212:3284" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="3480:3703" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="3549:3693" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="3785:3909" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="3989:4119" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="4239:4450" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="4265:4332" ph="{...}" />
+                <marker date="1564829291560" expanded="true" signature="4356:4440" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -110,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/MainViewModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="240" column="9" lean-forward="true" selection-start-line="230" selection-start-column="8" selection-end-line="240" selection-end-column="9" />
+            <state relative-caret-position="595">
+              <caret line="174" column="8" lean-forward="true" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="67" />
               <folding>
                 <marker date="1517654262207" expanded="false" signature="6:519" ph="..." />
                 <marker date="1517654262207" expanded="true" signature="542:12706" ph="{...}" />
@@ -152,9 +154,9 @@
                 <marker date="1517654262207" expanded="true" signature="5973:6306" ph="{...}" />
                 <marker date="1517654262207" expanded="true" signature="5999:6070" ph="{...}" />
                 <marker date="1517654262207" expanded="true" signature="6086:6296" ph="{...}" />
-                <marker date="1517654262207" expanded="true" signature="6336:6803" ph="Constructors" />
+                <marker date="1517654262207" expanded="false" signature="6336:6803" ph="Constructors" />
                 <marker date="1517654262207" expanded="true" signature="6388:6783" ph="{...}" />
-                <marker date="1517654262207" expanded="true" signature="6813:10779" ph="Method" />
+                <marker date="1517654262207" expanded="false" signature="6813:10779" ph="Method" />
                 <marker date="1517654262207" expanded="true" signature="6924:7031" ph="{...}" />
                 <marker date="1517654262207" expanded="true" signature="7087:8849" ph="{...}" />
                 <marker date="1517654262207" expanded="true" signature="7194:8839" ph="{...}" />
@@ -170,7 +172,7 @@
                 <marker date="1517654262207" expanded="true" signature="9519:9942" ph="{...}" />
                 <marker date="1517654262207" expanded="true" signature="9999:10669" ph="{...}" />
                 <marker date="1517654262207" expanded="true" signature="10709:10759" ph="{...}" />
-                <marker date="1517654262207" expanded="true" signature="10789:12698" ph="HandlesEvent" />
+                <marker date="1517654262207" expanded="false" signature="10789:12698" ph="HandlesEvent" />
                 <marker date="1517654262207" expanded="true" signature="10851:10958" ph="{...}" />
                 <marker date="1517654262207" expanded="true" signature="10993:12401" ph="{...}" />
                 <marker date="1517654262207" expanded="true" signature="11207:11242" ph="{...}" />
@@ -369,7 +371,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564821855259</updated>
-      <workItem from="1564821859244" duration="7116000" />
+      <workItem from="1564821859244" duration="7410000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1564822246468</created>
@@ -399,11 +401,25 @@
       <option name="project" value="LOCAL" />
       <updated>1564828751815</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Binding Process">
+      <created>1564829088123</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564829088123</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add Process State &amp; Bind Movie Files">
+      <created>1564829345771</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564829345771</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7116000" />
+    <option name="totallyTimeSpent" value="7410000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -479,7 +495,9 @@
     <MESSAGE value="init" />
     <MESSAGE value="Add UI" />
     <MESSAGE value="Binding all TextBox" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binding all TextBox" />
+    <MESSAGE value="Add Binding Process" />
+    <MESSAGE value="Add Process State &amp; Bind Movie Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Process State &amp; Bind Movie Files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1039,7 +1057,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MultimediaSorter/View/MainWindow.xaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="1122">
           <caret line="66" column="24" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="24" />
           <folding>
             <marker date="1564828512677" expanded="true" signature="0:5468" ph="&lt;&lt;Window.TaskbarItemInfo&gt;&#10;        &lt;TaskbarItemInfo ProgressState=&quot;{Binding ProgressState, Mode=OneWay}&quot;&#10;                         ProgressValue=&quot;{Binding ProgressPrecent, Mode=OneWay}&quot; /&gt;&#10;    &lt;/Window.TaskbarItemInfo&gt; &lt;DockPanel Margin=&quot;30&quot;&gt;&#10;        &lt;StackPanel DockPanel.Dock=&quot;Top&quot;&gt;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к файлам:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding FilePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt;&#10;                &lt;Button Command=&quot;{Binding SelectFilePathCommand}&quot; ToolTip=&quot;Выбрать путь, где находятся фотографии&quot;&#10;                        Grid.Column=&quot;2&quot; /&gt;&#10;            &lt;/Grid&gt;&#10;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к сохранению:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding SavePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt;&#10;                &lt;Button Command=&quot;{Binding SelectSavePathCommand}&quot; ToolTip=&quot;Выбрать путь, куда фотографии перенесутся&quot;&#10;                        Grid.Column=&quot;2&quot; /&gt;&#10;            &lt;/Grid&gt;&#10;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;                &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Расширение файла:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding ExtensionFilter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                         Grid.Column=&quot;1&quot; ToolTip=&quot;Для нескольких расширений, разделить ;&quot; VerticalAlignment=&quot;Bottom&quot; /&gt;&#10;            &lt;/Grid&gt;&#10;&#10;            &lt;CheckBox Margin=&quot;5&quot; Content=&quot;Искать в вложенных папках&quot;&#10;                      IsChecked=&quot;{Binding SearchInSubFolder, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                      IsEnabled=&quot;{Binding ProcessNotStarted, Mode=OneWay}&quot; /&gt;&#10;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;160&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Маска наименовая папки:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding DirMask, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         ToolTip=&quot;{Binding DirMaskToolTip, Mode=OneTime}&quot; /&gt;&#10;                &lt;TextBlock Text=&quot;{Binding SampleDirName, Mode=OneWay}&quot; Grid.Column=&quot;2&quot; TextAlignment=&quot;Left&quot;&#10;                           Margin=&quot;10,0,0,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;            &lt;/Grid&gt;&#10;&#10;            &lt;CheckBox Margin=&quot;5&quot; Content=&quot;Перемещать файлы&quot;&#10;                      IsChecked=&quot;{Binding MoveFiles, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                      IsEnabled=&quot;{Binding ProcessNotStarted, Mode=OneWay}&quot; /&gt;&#10;&#10;            &lt;Grid&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;                &lt;Button Grid.Column=&quot;0&quot; Margin=&quot;5&quot; Command=&quot;{Binding StartProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot;&gt;&#10;                        &lt;TextBlock Text=&quot;Запуск&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt;&#10;                &lt;Button Grid.Column=&quot;1&quot; Margin=&quot;5&quot; Command=&quot;{Binding StopProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot;&gt;&#10;                        &lt;TextBlock Text=&quot;Стоп&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt;&#10;&#10;            &lt;ProgressBar Value=&quot;{Binding ProgressValue, Mode=OneWay}&quot; Height=&quot;25&quot; Maximum=&quot;100&quot; Minimum=&quot;0&quot; Margin=&quot;5&quot; /&gt;&#10;        &lt;/StackPanel&gt;&#10;&#10;        &lt;ListBox DockPanel.Dock=&quot;Bottom&quot; ItemsSource=&quot;{Binding ProcessedFiles, Mode=OneWay}&quot; /&gt;&#10;    &lt;/DockPanel&gt;.../&gt;" />
@@ -1076,8 +1094,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/MainViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="240" column="9" lean-forward="true" selection-start-line="230" selection-start-column="8" selection-end-line="240" selection-end-column="9" />
+        <state relative-caret-position="595">
+          <caret line="174" column="8" lean-forward="true" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="67" />
           <folding>
             <marker date="1517654262207" expanded="false" signature="6:519" ph="..." />
             <marker date="1517654262207" expanded="true" signature="542:12706" ph="{...}" />
@@ -1118,9 +1136,9 @@
             <marker date="1517654262207" expanded="true" signature="5973:6306" ph="{...}" />
             <marker date="1517654262207" expanded="true" signature="5999:6070" ph="{...}" />
             <marker date="1517654262207" expanded="true" signature="6086:6296" ph="{...}" />
-            <marker date="1517654262207" expanded="true" signature="6336:6803" ph="Constructors" />
+            <marker date="1517654262207" expanded="false" signature="6336:6803" ph="Constructors" />
             <marker date="1517654262207" expanded="true" signature="6388:6783" ph="{...}" />
-            <marker date="1517654262207" expanded="true" signature="6813:10779" ph="Method" />
+            <marker date="1517654262207" expanded="false" signature="6813:10779" ph="Method" />
             <marker date="1517654262207" expanded="true" signature="6924:7031" ph="{...}" />
             <marker date="1517654262207" expanded="true" signature="7087:8849" ph="{...}" />
             <marker date="1517654262207" expanded="true" signature="7194:8839" ph="{...}" />
@@ -1136,7 +1154,7 @@
             <marker date="1517654262207" expanded="true" signature="9519:9942" ph="{...}" />
             <marker date="1517654262207" expanded="true" signature="9999:10669" ph="{...}" />
             <marker date="1517654262207" expanded="true" signature="10709:10759" ph="{...}" />
-            <marker date="1517654262207" expanded="true" signature="10789:12698" ph="HandlesEvent" />
+            <marker date="1517654262207" expanded="false" signature="10789:12698" ph="HandlesEvent" />
             <marker date="1517654262207" expanded="true" signature="10851:10958" ph="{...}" />
             <marker date="1517654262207" expanded="true" signature="10993:12401" ph="{...}" />
             <marker date="1517654262207" expanded="true" signature="11207:11242" ph="{...}" />
@@ -1150,31 +1168,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MultimediaSorter/ViewModel/MainViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="294">
+          <caret line="139" column="8" lean-forward="true" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
           <folding>
-            <marker date="1564829044814" expanded="true" signature="6:84" ph="..." />
-            <marker date="1564829044814" expanded="true" signature="122:3808" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="171:3806" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="208:483" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="557:854" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="621:844" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="928:1225" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="992:1215" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="1297:1641" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="1352:1631" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="1729:2016" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="1800:2006" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="2053:2454" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="2079:2444" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="2499:2989" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="2526:2979" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="2560:2854" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="2893:2965" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="3161:3384" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="3230:3374" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="3466:3590" ph="{...}" />
-            <marker date="1564829044814" expanded="true" signature="3670:3800" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="6:112" ph="..." />
+            <marker date="1564829291560" expanded="true" signature="150:4458" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="199:4456" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="236:511" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="585:882" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="649:872" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="956:1253" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="1020:1243" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="1325:1669" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="1380:1659" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="1757:2023" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="1828:2013" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="2095:2335" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="2152:2325" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="2372:2773" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="2398:2763" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="2818:3308" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="2845:3298" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="2879:3173" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="3212:3284" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="3480:3703" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="3549:3693" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="3785:3909" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="3989:4119" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="4239:4450" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="4265:4332" ph="{...}" />
+            <marker date="1564829291560" expanded="true" signature="4356:4440" ph="{...}" />
           </folding>
         </state>
       </provider>
