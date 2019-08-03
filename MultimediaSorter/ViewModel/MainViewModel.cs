@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Linq;
+using System.Windows.Shell;
 using MultimediaSorter.Properties;
 
 namespace MultimediaSorter.ViewModel
@@ -63,9 +64,20 @@ namespace MultimediaSorter.ViewModel
             get { return _extensionFilter; }
             set
             {
-                _extensionFilter = value;
-                OnPropertyChanged();
+                SetProperty(ref _extensionFilter, value);
                 Settings.Default.ExtensionFilter = value;
+                Settings.Default.Save();
+            }
+        }
+        
+        private bool _moveFiles;
+        public bool MoveFiles
+        {
+            get => _moveFiles;
+            set
+            {
+                SetProperty(ref _moveFiles, value);
+                Settings.Default.MoveFiles = value;
                 Settings.Default.Save();
             }
         }
@@ -124,6 +136,19 @@ namespace MultimediaSorter.ViewModel
         {
             get => _processNotStarted;
             private set => SetProperty(ref _processNotStarted, value);
+        }
+        
+        private TaskbarItemProgressState _progressState;
+        public TaskbarItemProgressState ProgressState
+        {
+            get
+            {
+                return _progressState;
+            }
+            private set
+            {
+                SetProperty(ref _progressState, value);
+            }
         }
     }
 }
