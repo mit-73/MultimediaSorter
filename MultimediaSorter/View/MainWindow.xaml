@@ -5,8 +5,98 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MultimediaSorter"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="500" Width="600">
+    <Window.TaskbarItemInfo>
+        <TaskbarItemInfo ProgressState="{Binding ProgressState, Mode=OneWay}"
+                         ProgressValue="{Binding ProgressPrecent, Mode=OneWay}" />
+    </Window.TaskbarItemInfo>
+
+    <DockPanel Margin="30">
+        <StackPanel DockPanel.Dock="Top">
+            <Grid Margin="5" VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="130" />
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="32" />
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center">Путь к файлам:</Label>
+                <TextBox Text="{Binding FilePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1"
+                         IsReadOnly="{Binding ProcessStarted}" Margin="0,0,5,0" />
+                <Button Command="{Binding SelectFilePathCommand}" ToolTip="Выбрать путь, где находятся фотографии"
+                        Grid.Column="2" />
+            </Grid>
+
+            <Grid Margin="5" VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="130" />
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="32" />
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center">Путь к сохранению:</Label>
+                <TextBox Text="{Binding SavePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1"
+                         IsReadOnly="{Binding ProcessStarted}" Margin="0,0,5,0" />
+                <Button Command="{Binding SelectSavePathCommand}" ToolTip="Выбрать путь, куда фотографии перенесутся"
+                        Grid.Column="2" />
+            </Grid>
+
+            <Grid Margin="5" VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="130" />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center">Расширение файла:</Label>
+                <TextBox Text="{Binding ExtensionFilter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                         Grid.Column="1" ToolTip="Для нескольких расширений, разделить ;" VerticalAlignment="Bottom" />
+            </Grid>
+
+            <CheckBox Margin="5" Content="Искать в вложенных папках"
+                      IsChecked="{Binding SearchInSubFolder, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                      IsEnabled="{Binding ProcessNotStarted, Mode=OneWay}" />
+
+            <Grid Margin="5" VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="160" />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center">Маска наименовая папки:</Label>
+                <TextBox Text="{Binding DirMask, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1"
+                         ToolTip="{Binding DirMaskToolTip, Mode=OneTime}" />
+                <TextBlock Text="{Binding SampleDirName, Mode=OneWay}" Grid.Column="2" TextAlignment="Left"
+                           Margin="10,0,0,0" VerticalAlignment="Center" />
+            </Grid>
+
+            <CheckBox Margin="5" Content="Перемещать файлы"
+                      IsChecked="{Binding MoveFiles, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                      IsEnabled="{Binding ProcessNotStarted, Mode=OneWay}" />
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0" Margin="5" Command="{Binding StartProcessingCommand}"
+                        HorizontalContentAlignment="Center">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Запуск" VerticalAlignment="Center" />
+                    </StackPanel>
+                </Button>
+                <Button Grid.Column="1" Margin="5" Command="{Binding StopProcessingCommand}"
+                        HorizontalContentAlignment="Center">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Стоп" VerticalAlignment="Center" />
+                    </StackPanel>
+                </Button>
+            </Grid>
+
+            <ProgressBar Value="{Binding ProgressValue, Mode=OneWay}" Height="25" Maximum="100" Minimum="0" Margin="5" />
+        </StackPanel>
+
+        <ListBox DockPanel.Dock="Bottom" ItemsSource="{Binding ProcessedFiles, Mode=OneWay}" />
+    </DockPanel>
 </Window>

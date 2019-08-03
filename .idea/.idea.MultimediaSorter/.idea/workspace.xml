@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="965466ee-e8bd-47cb-881a-1374da1b73a1" name="Default Changelist" comment="Add UI">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MultimediaSorter/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MultimediaSorter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MultimediaSorter/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MultimediaSorter/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/Properties/Settings.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/Properties/Settings.settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/bin/Debug/MultimediaSorter.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/bin/Debug/MultimediaSorter.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/bin/Debug/MultimediaSorter.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/App.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/App.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/GeneratedInternalTypeHelper.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/MultimediaSorter.Properties.Resources.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/MultimediaSorter.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/MultimediaSorter.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/MultimediaSorter.csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/MultimediaSorter.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/MultimediaSorter.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/MultimediaSorter.g.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/MultimediaSorter.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/MultimediaSorter_Content.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/MultimediaSorter_Content.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/MultimediaSorter_MarkupCompile.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/MultimediaSorter_MarkupCompile.lref" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/View/MainWindow.baml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/View/MainWindow.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/View/MainWindow.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/App.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/Properties/Resources.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/Properties/Resources.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/Properties/Resources.resx" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/Properties/Resources.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/View/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/View/MainWindow.xaml" afterDir="false" />
+    </list>
+    <list id="ec557f02-5864-4eff-8dd2-f749e19be4fd" name="init" comment="init">
+      <changelist_data name="MiT" email="73ilnar73@gmail.com" date="1564822246000" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/MultimediaSorter.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/MultimediaSorter.csproj" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MultimediaSorter" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MultimediaSorter/View/MainWindow.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <folding>
+                <marker date="1564826417689" expanded="true" signature="0:5415" ph="&lt;&lt;Window.TaskbarItemInfo&gt;&#10;        &lt;TaskbarItemInfo ProgressState=&quot;{Binding TaskbarItemProgressState, Mode=OneWay}&quot;&#10;                         ProgressValue=&quot;{Binding ProgressPrecent, Mode=OneWay}&quot; /&gt;&#10;    &lt;/Window.TaskbarItemInfo&gt; &lt;DockPanel Margin=&quot;30&quot;&gt;&#10;        &lt;StackPanel DockPanel.Dock=&quot;Top&quot;&gt;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к файлам:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding PhotoPath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt;&#10;                &lt;Button Command=&quot;{Binding SelectPhotoPathCommand}&quot; ToolTip=&quot;Выбрать путь, где находятся фотографии&quot;&#10;                        Grid.Column=&quot;2&quot;&gt;&#10;                    &lt;Viewbox&gt;&#10;                        &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource folder_ellipsisStyle0}&quot; Margin=&quot;5&quot;&#10;                              Stroke=&quot;##FF2CC8C8&quot; RenderTransformOrigin=&quot;0.455,0.455&quot; /&gt;&#10;                    &lt;/Viewbox&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к сохранению:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding SavePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt;&#10;                &lt;Button Command=&quot;{Binding SelectSavePathCommand}&quot; ToolTip=&quot;Выбрать путь, куда фотографии перенесутся&quot;&#10;                        Grid.Column=&quot;2&quot;&gt;&#10;                    &lt;Viewbox&gt;&#10;                        &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource folder_ellipsisStyle0}&quot; Margin=&quot;5&quot;&#10;                              Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                    &lt;/Viewbox&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Расширение файла:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding ExtensionFilter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                         Grid.Column=&quot;1&quot; ToolTip=&quot;Для нескольких расширений, разделить ;&quot; VerticalAlignment=&quot;Bottom&quot; /&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;CheckBox Margin=&quot;5&quot; Content=&quot;Искать в вложенных папках&quot;&#10;                      IsChecked=&quot;{Binding SearchInSubFolder, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                      IsEnabled=&quot;{Binding ProcessNotStarted, Mode=OneWay}&quot; /&gt;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;160&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Маска наименовая папки:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding DirMask, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         ToolTip=&quot;{Binding DirMaskToolTip, Source={StaticResource Resources}, Mode=OneTime}&quot; /&gt;&#10;                &lt;TextBlock Text=&quot;{Binding SampleDirName, Mode=OneWay}&quot; Grid.Column=&quot;2&quot; TextAlignment=&quot;Left&quot;&#10;                           Margin=&quot;10,0,0,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;CheckBox Margin=&quot;5&quot; Content=&quot;Перемещать файлы&quot;&#10;                      IsChecked=&quot;{Binding MoveFiles, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                      IsEnabled=&quot;{Binding ProcessNotStarted, Mode=OneWay}&quot; /&gt;&#10;            &lt;Grid&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Button Grid.Column=&quot;0&quot; Margin=&quot;5&quot; Command=&quot;{Binding StartProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource playStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Запуск&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt;&#10;                &lt;Button Grid.Column=&quot;1&quot; Margin=&quot;5&quot; Command=&quot;{Binding StopProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource stopStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Стоп&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;ProgressBar Value=&quot;{Binding ProgressValue, Mode=OneWay}&quot; Height=&quot;24&quot; Maximum=&quot;100&quot; Minimum=&quot;0&quot; Margin=&quot;5&quot; /&gt;&#10;        &lt;/StackPanel&gt;&#10;        &lt;ListBox DockPanel.Dock=&quot;Bottom&quot; ItemsSource=&quot;{Binding ProcessedFiles, Mode=OneWay}&quot; /&gt;&#10;        &lt;DockPanel.Resources&gt;&#10;            &lt;Style TargetType=&quot;Label&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot;&gt;&#10;                    &lt;Setter.Value&gt;&#10;                        &lt;LinearGradientBrush EndPoint=&quot;1,1&quot; StartPoint=&quot;0,0&quot;&gt;&#10;                            &lt;GradientStop Color=&quot;##FF97E9E9&quot; Offset=&quot;1&quot; /&gt;&#10;                            &lt;GradientStop Color=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/LinearGradientBrush&gt;&#10;                    &lt;/Setter.Value&gt;&#10;                &lt;/Setter&gt;&#10;            &lt;/Style&gt;&#10;            &lt;Style TargetType=&quot;TextBlock&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot;&gt;&#10;                    &lt;Setter.Value&gt;&#10;                        &lt;LinearGradientBrush EndPoint=&quot;1,1&quot; StartPoint=&quot;0,0&quot;&gt;&#10;                            &lt;GradientStop Color=&quot;##FF97E9E9&quot; Offset=&quot;1&quot; /&gt;&#10;                            &lt;GradientStop Color=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/LinearGradientBrush&gt;&#10;                    &lt;/Setter.Value&gt;&#10;                &lt;/Setter&gt;&#10;            &lt;/Style&gt;&#10;        &lt;/DockPanel.Resources&gt;&#10;    &lt;/DockPanel&gt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="466:681" ph="&lt;&lt;TaskbarItemInfo ProgressState=&quot;{Binding TaskbarItemProgressState, Mode=OneWay}&quot;&#10;                         ProgressValue=&quot;{Binding ProgressPrecent, Mode=OneWay}&quot; /&gt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="499:651" ph="&lt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="687:5405" ph="&lt;&lt;StackPanel DockPanel.Dock=&quot;Top&quot;&gt;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к файлам:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding PhotoPath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt;&#10;                &lt;Button Command=&quot;{Binding SelectPhotoPathCommand}&quot; ToolTip=&quot;Выбрать путь, где находятся фотографии&quot;&#10;                        Grid.Column=&quot;2&quot;&gt;&#10;                    &lt;Viewbox&gt;&#10;                        &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource folder_ellipsisStyle0}&quot; Margin=&quot;5&quot;&#10;                              Stroke=&quot;##FF2CC8C8&quot; RenderTransformOrigin=&quot;0.455,0.455&quot; /&gt;&#10;                    &lt;/Viewbox&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к сохранению:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding SavePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt;&#10;                &lt;Button Command=&quot;{Binding SelectSavePathCommand}&quot; ToolTip=&quot;Выбрать путь, куда фотографии перенесутся&quot;&#10;                        Grid.Column=&quot;2&quot;&gt;&#10;                    &lt;Viewbox&gt;&#10;                        &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource folder_ellipsisStyle0}&quot; Margin=&quot;5&quot;&#10;                              Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                    &lt;/Viewbox&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Расширение файла:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding ExtensionFilter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                         Grid.Column=&quot;1&quot; ToolTip=&quot;Для нескольких расширений, разделить ;&quot; VerticalAlignment=&quot;Bottom&quot; /&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;CheckBox Margin=&quot;5&quot; Content=&quot;Искать в вложенных папках&quot;&#10;                      IsChecked=&quot;{Binding SearchInSubFolder, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                      IsEnabled=&quot;{Binding ProcessNotStarted, Mode=OneWay}&quot; /&gt;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;160&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Маска наименовая папки:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding DirMask, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         ToolTip=&quot;{Binding DirMaskToolTip, Source={StaticResource Resources}, Mode=OneTime}&quot; /&gt;&#10;                &lt;TextBlock Text=&quot;{Binding SampleDirName, Mode=OneWay}&quot; Grid.Column=&quot;2&quot; TextAlignment=&quot;Left&quot;&#10;                           Margin=&quot;10,0,0,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;CheckBox Margin=&quot;5&quot; Content=&quot;Перемещать файлы&quot;&#10;                      IsChecked=&quot;{Binding MoveFiles, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                      IsEnabled=&quot;{Binding ProcessNotStarted, Mode=OneWay}&quot; /&gt;&#10;            &lt;Grid&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Button Grid.Column=&quot;0&quot; Margin=&quot;5&quot; Command=&quot;{Binding StartProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource playStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Запуск&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt;&#10;                &lt;Button Grid.Column=&quot;1&quot; Margin=&quot;5&quot; Command=&quot;{Binding StopProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource stopStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Стоп&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;ProgressBar Value=&quot;{Binding ProgressValue, Mode=OneWay}&quot; Height=&quot;24&quot; Maximum=&quot;100&quot; Minimum=&quot;0&quot; Margin=&quot;5&quot; /&gt;&#10;        &lt;/StackPanel&gt; &lt;ListBox DockPanel.Dock=&quot;Bottom&quot; ItemsSource=&quot;{Binding ProcessedFiles, Mode=OneWay}&quot; /&gt; &lt;DockPanel.Resources&gt;&#10;            &lt;Style TargetType=&quot;Label&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot;&gt;&#10;                    &lt;Setter.Value&gt;&#10;                        &lt;LinearGradientBrush EndPoint=&quot;1,1&quot; StartPoint=&quot;0,0&quot;&gt;&#10;                            &lt;GradientStop Color=&quot;##FF97E9E9&quot; Offset=&quot;1&quot; /&gt;&#10;                            &lt;GradientStop Color=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/LinearGradientBrush&gt;&#10;                    &lt;/Setter.Value&gt;&#10;                &lt;/Setter&gt;&#10;            &lt;/Style&gt;&#10;            &lt;Style TargetType=&quot;TextBlock&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot;&gt;&#10;                    &lt;Setter.Value&gt;&#10;                        &lt;LinearGradientBrush EndPoint=&quot;1,1&quot; StartPoint=&quot;0,0&quot;&gt;&#10;                            &lt;GradientStop Color=&quot;##FF97E9E9&quot; Offset=&quot;1&quot; /&gt;&#10;                            &lt;GradientStop Color=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/LinearGradientBrush&gt;&#10;                    &lt;/Setter.Value&gt;&#10;                &lt;/Setter&gt;&#10;            &lt;/Style&gt;&#10;        &lt;/DockPanel.Resources&gt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="719:5291" ph="&lt;&lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к файлам:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding PhotoPath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt;&#10;                &lt;Button Command=&quot;{Binding SelectPhotoPathCommand}&quot; ToolTip=&quot;Выбрать путь, где находятся фотографии&quot;&#10;                        Grid.Column=&quot;2&quot;&gt;&#10;                    &lt;Viewbox&gt;&#10;                        &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource folder_ellipsisStyle0}&quot; Margin=&quot;5&quot;&#10;                              Stroke=&quot;##FF2CC8C8&quot; RenderTransformOrigin=&quot;0.455,0.455&quot; /&gt;&#10;                    &lt;/Viewbox&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt; &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к сохранению:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding SavePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt;&#10;                &lt;Button Command=&quot;{Binding SelectSavePathCommand}&quot; ToolTip=&quot;Выбрать путь, куда фотографии перенесутся&quot;&#10;                        Grid.Column=&quot;2&quot;&gt;&#10;                    &lt;Viewbox&gt;&#10;                        &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource folder_ellipsisStyle0}&quot; Margin=&quot;5&quot;&#10;                              Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                    &lt;/Viewbox&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt; &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Расширение файла:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding ExtensionFilter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                         Grid.Column=&quot;1&quot; ToolTip=&quot;Для нескольких расширений, разделить ;&quot; VerticalAlignment=&quot;Bottom&quot; /&gt;&#10;            &lt;/Grid&gt; &lt;CheckBox Margin=&quot;5&quot; Content=&quot;Искать в вложенных папках&quot;&#10;                      IsChecked=&quot;{Binding SearchInSubFolder, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                      IsEnabled=&quot;{Binding ProcessNotStarted, Mode=OneWay}&quot; /&gt; &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;160&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Маска наименовая папки:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding DirMask, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         ToolTip=&quot;{Binding DirMaskToolTip, Source={StaticResource Resources}, Mode=OneTime}&quot; /&gt;&#10;                &lt;TextBlock Text=&quot;{Binding SampleDirName, Mode=OneWay}&quot; Grid.Column=&quot;2&quot; TextAlignment=&quot;Left&quot;&#10;                           Margin=&quot;10,0,0,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;            &lt;/Grid&gt; &lt;CheckBox Margin=&quot;5&quot; Content=&quot;Перемещать файлы&quot;&#10;                      IsChecked=&quot;{Binding MoveFiles, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                      IsEnabled=&quot;{Binding ProcessNotStarted, Mode=OneWay}&quot; /&gt; &lt;Grid&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Button Grid.Column=&quot;0&quot; Margin=&quot;5&quot; Command=&quot;{Binding StartProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource playStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Запуск&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt;&#10;                &lt;Button Grid.Column=&quot;1&quot; Margin=&quot;5&quot; Command=&quot;{Binding StopProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource stopStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Стоп&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt; &lt;ProgressBar Value=&quot;{Binding ProgressValue, Mode=OneWay}&quot; Height=&quot;24&quot; Maximum=&quot;100&quot; Minimum=&quot;0&quot; Margin=&quot;5&quot; /&gt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="765:1533" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt; &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к файлам:&lt;/Label&gt; &lt;TextBox Text=&quot;{Binding PhotoPath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt; &lt;Button Command=&quot;{Binding SelectPhotoPathCommand}&quot; ToolTip=&quot;Выбрать путь, где находятся фотографии&quot;&#10;                        Grid.Column=&quot;2&quot;&gt;&#10;                    &lt;Viewbox&gt;&#10;                        &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource folder_ellipsisStyle0}&quot; Margin=&quot;5&quot;&#10;                              Stroke=&quot;##FF2CC8C8&quot; RenderTransformOrigin=&quot;0.455,0.455&quot; /&gt;&#10;                    &lt;/Viewbox&gt;&#10;                &lt;/Button&gt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="826:1038" ph="&lt;&lt;ColumnDefinition Width=&quot;130&quot; /&gt; &lt;ColumnDefinition /&gt; &lt;ColumnDefinition Width=&quot;32&quot; /&gt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="1172:1355" ph="&lt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="1372:1513" ph="&lt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="1547:2322" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt; &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к сохранению:&lt;/Label&gt; &lt;TextBox Text=&quot;{Binding SavePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt; &lt;Button Command=&quot;{Binding SelectSavePathCommand}&quot; ToolTip=&quot;Выбрать путь, куда фотографии перенесутся&quot;&#10;                        Grid.Column=&quot;2&quot;&gt;&#10;                    &lt;Viewbox&gt;&#10;                        &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource folder_ellipsisStyle0}&quot; Margin=&quot;5&quot;&#10;                              Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                    &lt;/Viewbox&gt;&#10;                &lt;/Button&gt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="1608:1820" ph="&lt;&lt;ColumnDefinition Width=&quot;130&quot; /&gt; &lt;ColumnDefinition /&gt; &lt;ColumnDefinition Width=&quot;32&quot; /&gt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="1958:2141" ph="&lt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="2158:2302" ph="&lt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="2336:2938" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt; &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Расширение файла:&lt;/Label&gt; &lt;TextBox Text=&quot;{Binding ExtensionFilter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                         Grid.Column=&quot;1&quot; ToolTip=&quot;Для нескольких расширений, разделить ;&quot; VerticalAlignment=&quot;Bottom&quot; /&gt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="2397:2557" ph="&lt;&lt;ColumnDefinition Width=&quot;130&quot; /&gt; &lt;ColumnDefinition /&gt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="2707:2918" ph="&lt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="2952:3198" ph="&lt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="3212:3996" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;160&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt; &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Маска наименовая папки:&lt;/Label&gt; &lt;TextBox Text=&quot;{Binding DirMask, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         ToolTip=&quot;{Binding DirMaskToolTip, Source={StaticResource Resources}, Mode=OneTime}&quot; /&gt; &lt;TextBlock Text=&quot;{Binding SampleDirName, Mode=OneWay}&quot; Grid.Column=&quot;2&quot; TextAlignment=&quot;Left&quot;&#10;                           Margin=&quot;10,0,0,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="3273:3474" ph="&lt;&lt;ColumnDefinition Width=&quot;160&quot; /&gt; &lt;ColumnDefinition /&gt; &lt;ColumnDefinition /&gt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="3617:3793" ph="&lt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="3810:3976" ph="&lt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="4010:4239" ph="&lt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="4253:5146" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt; &lt;Button Grid.Column=&quot;0&quot; Margin=&quot;5&quot; Command=&quot;{Binding StartProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource playStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Запуск&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt; &lt;Button Grid.Column=&quot;1&quot; Margin=&quot;5&quot; Command=&quot;{Binding StopProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource stopStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Стоп&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="4276:4424" ph="&lt;&lt;ColumnDefinition /&gt; &lt;ColumnDefinition /&gt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="4442:4777" ph="&lt;&lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource playStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Запуск&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="4601:4751" ph="&lt;&lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource playStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt; &lt;TextBlock Text=&quot;Запуск&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="4794:5126" ph="&lt;&lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource stopStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Стоп&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;.../&gt;" />
+                <marker date="1564826417689" expanded="true" signature="4952:5100" ph="&lt;&lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource stopStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt; &lt;TextBlock Text=&quot;Стоп&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>d</find>
+      <find>Photo</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MultimediaSorter/App.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3E43C3F6-70BB-4A79-B204-897165C8F1C3/95/b6c80b99/XamlReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MultimediaSorter/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MultimediaSorter/Model/MainModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MultimediaSorter/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MultimediaSorter/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MultimediaSorter/ViewModel/MainViewModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MultimediaSorter/View/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MultimediaSorter/App.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MultimediaSorter/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MultimediaSorter/View/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/Theme/Icons.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/Theme/Core.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/Theme/Brushes.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/App.xaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MultimediaSorter/Properties/Settings.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/App.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/Properties/Settings.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/OldWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/Properties/Resources.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/MainViewModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/MainView.xaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/MainView.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/ActionCommand.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MultimediaSorter/ViewModel/MainViewModel.cs" />
+        <option value="$PROJECT_DIR$/MultimediaSorter/Model/MainModel.cs" />
+        <option value="$PROJECT_DIR$/MultimediaSorter/MultimediaSorter.csproj" />
+        <option value="$PROJECT_DIR$/MultimediaSorter/Properties/Resources.Designer.cs" />
+        <option value="$PROJECT_DIR$/MultimediaSorter/Theme.xaml" />
+        <option value="$PROJECT_DIR$/MultimediaSorter/Theme/Core.xaml" />
+        <option value="$PROJECT_DIR$/MultimediaSorter/Theme/Brushes.xaml" />
+        <option value="$PROJECT_DIR$/MultimediaSorter/Theme/Icons.xaml" />
+        <option value="$PROJECT_DIR$/MultimediaSorter/Properties/Resources.resx" />
+        <option value="$PROJECT_DIR$/MultimediaSorter/View/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/MultimediaSorter/Properties/Settings.settings" />
+        <option value="$PROJECT_DIR$/MultimediaSorter/Properties/Settings.Designer.cs" />
+        <option value="$PROJECT_DIR$/MultimediaSorter/App.xaml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MultimediaSorter" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MultimediaSorter" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MultimediaSorter" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MultimediaSorter" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MultimediaSorter" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MultimediaSorter" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MultimediaSorter" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Resources.resx" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MultimediaSorter" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MultimediaSorter" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Settings.settings" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MultimediaSorter" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MultimediaSorter" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="View" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MultimediaSorter" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MultimediaSorter" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="View" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MainWindow.xaml" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MultimediaSorter" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MultimediaSorter" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="App.xaml" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/MultimediaSorter/bin/Debug/MultimediaSorter.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MultimediaSorter/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/MultimediaSorter/MultimediaSorter.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="965466ee-e8bd-47cb-881a-1374da1b73a1" name="Default Changelist" comment="" />
+      <created>1564821855259</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564821855259</updated>
+      <workItem from="1564821859244" duration="4766000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1564822246468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564822246468</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <created>1564822393142</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564822393142</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4766000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" sideWeight="0.50053364" side_tool="true" weight="0.14118274" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994664" visible="true" weight="0.14118274" />
+      <window_info id="Structure" order="1" sideWeight="0.50053364" side_tool="true" weight="0.14118274" />
+      <window_info anchor="bottom" id="Stacktrace" order="0" weight="0.32977587" />
+      <window_info anchor="bottom" id="Build" order="1" weight="0.32977587" />
+      <window_info anchor="bottom" id="NuGet" order="2" weight="0.32977587" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32977587" />
+      <window_info anchor="bottom" id="Unit Tests" order="6" weight="0.32977587" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32977587" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32977587" />
+      <window_info anchor="bottom" id="Performance Profiler" order="9" weight="0.32977587" />
+      <window_info anchor="bottom" id="Message" order="10" />
+      <window_info anchor="bottom" id="Find" order="11" />
+      <window_info anchor="bottom" id="Run" order="12" />
+      <window_info anchor="bottom" id="Debug" order="13" weight="0.20917822" />
+      <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="16" weight="0.32977587" />
+      <window_info anchor="right" id="Database" order="0" sideWeight="0.50053364" weight="0.30154502" />
+      <window_info anchor="right" x="613" y="51" width="693" height="937" id="XAML Preview" order="1" sideWeight="0.4994664" visible="true" weight="0.3063399" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="5" sideWeight="0.50053364" side_tool="true" weight="0.30154502" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" sideWeight="0.50053364" side_tool="true" weight="0.32978156" />
+    </layout>
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="Add UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add UI" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MultimediaSorter/View/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <marker date="1564821864572" expanded="true" signature="26:244" ph="{...}" />
+            <marker date="1564821864572" expanded="true" signature="33:111" ph="/// Interaction logic for MainWindow.xaml ... " />
+            <marker date="1564821864572" expanded="true" signature="147:242" ph="{...}" />
+            <marker date="1564821864572" expanded="true" signature="181:236" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultimediaSorter/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1564821864431" expanded="true" signature="6:147" ph="..." />
+            <marker date="1564821864431" expanded="true" signature="149:335" ph="/* General Information about an assembly is controlled through the following ... */" />
+            <marker date="1564821864431" expanded="true" signature="654:862" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
+            <marker date="1564821864431" expanded="true" signature="894:1394" ph="/* In order to begin building localizable applications, set ... */" />
+            <marker date="1564821864431" expanded="true" signature="1397:1818" ph="[assembly]" />
+            <marker date="1564821864431" expanded="true" signature="1456:1609" ph="/* where theme specific resource dictionaries are located ... */" />
+            <marker date="1564821864431" expanded="true" signature="1656:1815" ph="/* where the generic resource dictionary is located ... */" />
+            <marker date="1564821864431" expanded="true" signature="1821:2146" ph="/* Version information for an assembly consists of the following four values: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/MainView.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/MainViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultimediaSorter/Model/MainModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1564822367338" expanded="true" signature="32:84" ph="{...}" />
+            <marker date="1564822367338" expanded="true" signature="61:82" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/Properties/Resources.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="119" column="2" lean-forward="true" selection-start-line="119" selection-start-column="2" selection-end-line="143" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/Properties/Resources.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <folding>
+            <marker date="1517590262462" expanded="true" signature="0:395" ph="/* ------------------------------------------------------------------------------ ... */" />
+            <marker date="1517590262462" expanded="true" signature="430:4848" ph="{...}" />
+            <marker date="1517590262462" expanded="true" signature="464:578" ph="///   A strongly-typed resource class, for looking up localized strings, etc. ... " />
+            <marker date="1517590262462" expanded="true" signature="583:835" ph="/* This class was auto-generated by the StronglyTypedResourceBuilder ... */" />
+            <marker date="1517590262462" expanded="true" signature="1129:4846" ph="{...}" />
+            <marker date="1517590262462" expanded="true" signature="1478:1489" ph="{...}" />
+            <marker date="1517590262462" expanded="true" signature="1507:1621" ph="///   Returns the cached ResourceManager instance used by this class. ... " />
+            <marker date="1517590262462" expanded="true" signature="1827:2207" ph="{...}" />
+            <marker date="1517590262462" expanded="true" signature="1845:2197" ph="{...}" />
+            <marker date="1517590262462" expanded="true" signature="1910:2147" ph="{...}" />
+            <marker date="1517590262462" expanded="true" signature="2225:2413" ph="///   Overrides the current thread's CurrentUICulture property for all ... " />
+            <marker date="1517590262462" expanded="true" signature="2611:2767" ph="{...}" />
+            <marker date="1517590262462" expanded="true" signature="2629:2684" ph="{...}" />
+            <marker date="1517590262462" expanded="true" signature="2701:2757" ph="{...}" />
+            <marker date="1517590262462" expanded="true" signature="2785:3429" ph="///   Looks up a localized string similar to d - День месяца, в диапазоне от 1 до 31. ... " />
+            <marker date="1517590262462" expanded="true" signature="3474:3602" ph="{...}" />
+            <marker date="1517590262462" expanded="true" signature="3492:3592" ph="{...}" />
+            <marker date="1517590262462" expanded="true" signature="3620:3729" ph="///   Looks up a localized string similar to Некорректная маска. ... " />
+            <marker date="1517590262462" expanded="true" signature="3774:3902" ph="{...}" />
+            <marker date="1517590262462" expanded="true" signature="3792:3892" ph="{...}" />
+            <marker date="1517590262462" expanded="true" signature="3920:4037" ph="///   Looks up a localized string similar to Выбор папки с фотографиями. ... " />
+            <marker date="1517590262462" expanded="true" signature="4083:4212" ph="{...}" />
+            <marker date="1517590262462" expanded="true" signature="4101:4202" ph="{...}" />
+            <marker date="1517590262462" expanded="true" signature="4230:4358" ph="///   Looks up a localized string similar to Выбор папки для сохранения фотографий. ... " />
+            <marker date="1517590262462" expanded="true" signature="4408:4541" ph="{...}" />
+            <marker date="1517590262462" expanded="true" signature="4426:4531" ph="{...}" />
+            <marker date="1517590262462" expanded="true" signature="4559:4671" ph="///   Looks up a localized string similar to Сортировка завершена.. ... " />
+            <marker date="1517590262462" expanded="true" signature="4714:4840" ph="{...}" />
+            <marker date="1517590262462" expanded="true" signature="4732:4830" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/Properties/Settings.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1517590262478" expanded="true" signature="0:395" ph="/* ------------------------------------------------------------------------------ ... */" />
+            <marker date="1517590262478" expanded="true" signature="430:3643" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="767:3641" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="973:1056" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="991:1046" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="1306:1478" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="1324:1393" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="1410:1468" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="1731:1901" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="1749:1816" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="1833:1891" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="2150:2320" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="2168:2236" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="2253:2310" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="2575:2743" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="2593:2660" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="2677:2733" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="3004:3188" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="3022:3097" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="3114:3178" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="3449:3635" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="3467:3542" ph="{...}" />
+            <marker date="1517590262478" expanded="true" signature="3559:3625" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/Properties/Settings.settings">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/OldWindow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/ActionCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultimediaSorter/ViewModel/MainViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="10" selection-end-column="26" />
+          <folding>
+            <marker date="1564822339854" expanded="true" signature="36:92" ph="{...}" />
+            <marker date="1564822339854" expanded="true" signature="69:90" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultimediaSorter/App.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultimediaSorter/Theme.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultimediaSorter/MultimediaSorter.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" column="13" lean-forward="true" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/Theme/Brushes.xaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/Theme/Core.xaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/Theme/Icons.xaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3E43C3F6-70BB-4A79-B204-897165C8F1C3/95/b6c80b99/XamlReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="283" column="6" selection-start-line="283" selection-start-column="6" selection-end-line="283" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultimediaSorter/Theme/Brushes.xaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultimediaSorter/Theme/Core.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/App.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultimediaSorter/App.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <marker date="1564821864509" expanded="true" signature="26:147" ph="{...}" />
+            <marker date="1564821864509" expanded="true" signature="33:104" ph="/// Interaction logic for App.xaml ... " />
+            <marker date="1564821864509" expanded="true" signature="133:145" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/App.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultimediaSorter/Theme/Icons.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../!Other/PhotoSorter/PhotoSorter/MainView.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultimediaSorter/Properties/Resources.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="131" column="30" selection-start-line="131" selection-start-column="30" selection-end-line="131" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultimediaSorter/Properties/Settings.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <marker date="1564826462329" expanded="true" signature="0:395" ph="/* ------------------------------------------------------------------------------ ... */" />
+            <marker date="1564826462329" expanded="true" signature="435:3646" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="772:3644" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="978:1061" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="996:1051" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="1311:1481" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="1329:1397" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="1414:1471" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="1734:1904" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="1752:1819" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="1836:1894" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="2153:2323" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="2171:2239" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="2256:2313" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="2578:2746" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="2596:2663" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="2680:2736" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="3007:3191" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="3025:3100" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="3117:3181" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="3452:3638" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="3470:3545" ph="{...}" />
+            <marker date="1564826462329" expanded="true" signature="3562:3628" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultimediaSorter/Properties/Settings.settings">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultimediaSorter/Properties/Resources.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+          <folding>
+            <marker date="1564826089940" expanded="true" signature="0:395" ph="/* ------------------------------------------------------------------------------ ... */" />
+            <marker date="1564826089940" expanded="true" signature="435:4762" ph="{...}" />
+            <marker date="1564826089940" expanded="true" signature="469:583" ph="///   A strongly-typed resource class, for looking up localized strings, etc. ... " />
+            <marker date="1564826089940" expanded="true" signature="588:840" ph="/* This class was auto-generated by the StronglyTypedResourceBuilder ... */" />
+            <marker date="1564826089940" expanded="true" signature="1136:4760" ph="{...}" />
+            <marker date="1564826089940" expanded="true" signature="1487:1498" ph="{...}" />
+            <marker date="1564826089940" expanded="true" signature="1516:1630" ph="///   Returns the cached ResourceManager instance used by this class. ... " />
+            <marker date="1564826089940" expanded="true" signature="1838:2223" ph="{...}" />
+            <marker date="1564826089940" expanded="true" signature="1856:2213" ph="{...}" />
+            <marker date="1564826089940" expanded="true" signature="1921:2163" ph="{...}" />
+            <marker date="1564826089940" expanded="true" signature="2241:2429" ph="///   Overrides the current thread's CurrentUICulture property for all ... " />
+            <marker date="1564826089940" expanded="true" signature="2629:2785" ph="{...}" />
+            <marker date="1564826089940" expanded="true" signature="2647:2702" ph="{...}" />
+            <marker date="1564826089940" expanded="true" signature="2719:2775" ph="{...}" />
+            <marker date="1564826089940" expanded="true" signature="2803:3337" ph="///   Looks up a localized string similar to d - День месяца, в диапазоне от 1 до 31. dd - День месяца, в диапазо ... " />
+            <marker date="1564826089940" expanded="true" signature="3384:3512" ph="{...}" />
+            <marker date="1564826089940" expanded="true" signature="3402:3502" ph="{...}" />
+            <marker date="1564826089940" expanded="true" signature="3530:3639" ph="///   Looks up a localized string similar to Некорректная маска. ... " />
+            <marker date="1564826089940" expanded="true" signature="3686:3814" ph="{...}" />
+            <marker date="1564826089940" expanded="true" signature="3704:3804" ph="{...}" />
+            <marker date="1564826089940" expanded="true" signature="3832:3949" ph="///   Looks up a localized string similar to Выбор папки с фотографиями. ... " />
+            <marker date="1564826089940" expanded="true" signature="3996:4124" ph="{...}" />
+            <marker date="1564826089940" expanded="true" signature="4014:4114" ph="{...}" />
+            <marker date="1564826089940" expanded="true" signature="4142:4270" ph="///   Looks up a localized string similar to Выбор папки для сохранения фотографий. ... " />
+            <marker date="1564826089940" expanded="true" signature="4321:4453" ph="{...}" />
+            <marker date="1564826089940" expanded="true" signature="4339:4443" ph="{...}" />
+            <marker date="1564826089940" expanded="true" signature="4471:4583" ph="///   Looks up a localized string similar to Сортировка завершена.. ... " />
+            <marker date="1564826089940" expanded="true" signature="4628:4754" ph="{...}" />
+            <marker date="1564826089940" expanded="true" signature="4646:4744" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultimediaSorter/App.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <marker date="1564826539360" expanded="true" signature="0:368" ph="&lt;&lt;Application.Resources&gt;&#10;        &#10;    &lt;/Application.Resources&gt;.../&gt;" />
+            <marker date="1564826539360" expanded="true" signature="301:353" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultimediaSorter/View/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <marker date="1564826417689" expanded="true" signature="0:5415" ph="&lt;&lt;Window.TaskbarItemInfo&gt;&#10;        &lt;TaskbarItemInfo ProgressState=&quot;{Binding TaskbarItemProgressState, Mode=OneWay}&quot;&#10;                         ProgressValue=&quot;{Binding ProgressPrecent, Mode=OneWay}&quot; /&gt;&#10;    &lt;/Window.TaskbarItemInfo&gt; &lt;DockPanel Margin=&quot;30&quot;&gt;&#10;        &lt;StackPanel DockPanel.Dock=&quot;Top&quot;&gt;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к файлам:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding PhotoPath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt;&#10;                &lt;Button Command=&quot;{Binding SelectPhotoPathCommand}&quot; ToolTip=&quot;Выбрать путь, где находятся фотографии&quot;&#10;                        Grid.Column=&quot;2&quot;&gt;&#10;                    &lt;Viewbox&gt;&#10;                        &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource folder_ellipsisStyle0}&quot; Margin=&quot;5&quot;&#10;                              Stroke=&quot;##FF2CC8C8&quot; RenderTransformOrigin=&quot;0.455,0.455&quot; /&gt;&#10;                    &lt;/Viewbox&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к сохранению:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding SavePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt;&#10;                &lt;Button Command=&quot;{Binding SelectSavePathCommand}&quot; ToolTip=&quot;Выбрать путь, куда фотографии перенесутся&quot;&#10;                        Grid.Column=&quot;2&quot;&gt;&#10;                    &lt;Viewbox&gt;&#10;                        &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource folder_ellipsisStyle0}&quot; Margin=&quot;5&quot;&#10;                              Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                    &lt;/Viewbox&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Расширение файла:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding ExtensionFilter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                         Grid.Column=&quot;1&quot; ToolTip=&quot;Для нескольких расширений, разделить ;&quot; VerticalAlignment=&quot;Bottom&quot; /&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;CheckBox Margin=&quot;5&quot; Content=&quot;Искать в вложенных папках&quot;&#10;                      IsChecked=&quot;{Binding SearchInSubFolder, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                      IsEnabled=&quot;{Binding ProcessNotStarted, Mode=OneWay}&quot; /&gt;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;160&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Маска наименовая папки:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding DirMask, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         ToolTip=&quot;{Binding DirMaskToolTip, Source={StaticResource Resources}, Mode=OneTime}&quot; /&gt;&#10;                &lt;TextBlock Text=&quot;{Binding SampleDirName, Mode=OneWay}&quot; Grid.Column=&quot;2&quot; TextAlignment=&quot;Left&quot;&#10;                           Margin=&quot;10,0,0,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;CheckBox Margin=&quot;5&quot; Content=&quot;Перемещать файлы&quot;&#10;                      IsChecked=&quot;{Binding MoveFiles, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                      IsEnabled=&quot;{Binding ProcessNotStarted, Mode=OneWay}&quot; /&gt;&#10;            &lt;Grid&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Button Grid.Column=&quot;0&quot; Margin=&quot;5&quot; Command=&quot;{Binding StartProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource playStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Запуск&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt;&#10;                &lt;Button Grid.Column=&quot;1&quot; Margin=&quot;5&quot; Command=&quot;{Binding StopProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource stopStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Стоп&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;ProgressBar Value=&quot;{Binding ProgressValue, Mode=OneWay}&quot; Height=&quot;24&quot; Maximum=&quot;100&quot; Minimum=&quot;0&quot; Margin=&quot;5&quot; /&gt;&#10;        &lt;/StackPanel&gt;&#10;        &lt;ListBox DockPanel.Dock=&quot;Bottom&quot; ItemsSource=&quot;{Binding ProcessedFiles, Mode=OneWay}&quot; /&gt;&#10;        &lt;DockPanel.Resources&gt;&#10;            &lt;Style TargetType=&quot;Label&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot;&gt;&#10;                    &lt;Setter.Value&gt;&#10;                        &lt;LinearGradientBrush EndPoint=&quot;1,1&quot; StartPoint=&quot;0,0&quot;&gt;&#10;                            &lt;GradientStop Color=&quot;##FF97E9E9&quot; Offset=&quot;1&quot; /&gt;&#10;                            &lt;GradientStop Color=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/LinearGradientBrush&gt;&#10;                    &lt;/Setter.Value&gt;&#10;                &lt;/Setter&gt;&#10;            &lt;/Style&gt;&#10;            &lt;Style TargetType=&quot;TextBlock&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot;&gt;&#10;                    &lt;Setter.Value&gt;&#10;                        &lt;LinearGradientBrush EndPoint=&quot;1,1&quot; StartPoint=&quot;0,0&quot;&gt;&#10;                            &lt;GradientStop Color=&quot;##FF97E9E9&quot; Offset=&quot;1&quot; /&gt;&#10;                            &lt;GradientStop Color=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/LinearGradientBrush&gt;&#10;                    &lt;/Setter.Value&gt;&#10;                &lt;/Setter&gt;&#10;            &lt;/Style&gt;&#10;        &lt;/DockPanel.Resources&gt;&#10;    &lt;/DockPanel&gt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="466:681" ph="&lt;&lt;TaskbarItemInfo ProgressState=&quot;{Binding TaskbarItemProgressState, Mode=OneWay}&quot;&#10;                         ProgressValue=&quot;{Binding ProgressPrecent, Mode=OneWay}&quot; /&gt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="499:651" ph="&lt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="687:5405" ph="&lt;&lt;StackPanel DockPanel.Dock=&quot;Top&quot;&gt;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к файлам:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding PhotoPath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt;&#10;                &lt;Button Command=&quot;{Binding SelectPhotoPathCommand}&quot; ToolTip=&quot;Выбрать путь, где находятся фотографии&quot;&#10;                        Grid.Column=&quot;2&quot;&gt;&#10;                    &lt;Viewbox&gt;&#10;                        &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource folder_ellipsisStyle0}&quot; Margin=&quot;5&quot;&#10;                              Stroke=&quot;##FF2CC8C8&quot; RenderTransformOrigin=&quot;0.455,0.455&quot; /&gt;&#10;                    &lt;/Viewbox&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к сохранению:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding SavePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt;&#10;                &lt;Button Command=&quot;{Binding SelectSavePathCommand}&quot; ToolTip=&quot;Выбрать путь, куда фотографии перенесутся&quot;&#10;                        Grid.Column=&quot;2&quot;&gt;&#10;                    &lt;Viewbox&gt;&#10;                        &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource folder_ellipsisStyle0}&quot; Margin=&quot;5&quot;&#10;                              Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                    &lt;/Viewbox&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Расширение файла:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding ExtensionFilter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                         Grid.Column=&quot;1&quot; ToolTip=&quot;Для нескольких расширений, разделить ;&quot; VerticalAlignment=&quot;Bottom&quot; /&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;CheckBox Margin=&quot;5&quot; Content=&quot;Искать в вложенных папках&quot;&#10;                      IsChecked=&quot;{Binding SearchInSubFolder, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                      IsEnabled=&quot;{Binding ProcessNotStarted, Mode=OneWay}&quot; /&gt;&#10;            &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;160&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Маска наименовая папки:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding DirMask, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         ToolTip=&quot;{Binding DirMaskToolTip, Source={StaticResource Resources}, Mode=OneTime}&quot; /&gt;&#10;                &lt;TextBlock Text=&quot;{Binding SampleDirName, Mode=OneWay}&quot; Grid.Column=&quot;2&quot; TextAlignment=&quot;Left&quot;&#10;                           Margin=&quot;10,0,0,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;CheckBox Margin=&quot;5&quot; Content=&quot;Перемещать файлы&quot;&#10;                      IsChecked=&quot;{Binding MoveFiles, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                      IsEnabled=&quot;{Binding ProcessNotStarted, Mode=OneWay}&quot; /&gt;&#10;            &lt;Grid&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Button Grid.Column=&quot;0&quot; Margin=&quot;5&quot; Command=&quot;{Binding StartProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource playStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Запуск&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt;&#10;                &lt;Button Grid.Column=&quot;1&quot; Margin=&quot;5&quot; Command=&quot;{Binding StopProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource stopStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Стоп&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt;&#10;            &lt;ProgressBar Value=&quot;{Binding ProgressValue, Mode=OneWay}&quot; Height=&quot;24&quot; Maximum=&quot;100&quot; Minimum=&quot;0&quot; Margin=&quot;5&quot; /&gt;&#10;        &lt;/StackPanel&gt; &lt;ListBox DockPanel.Dock=&quot;Bottom&quot; ItemsSource=&quot;{Binding ProcessedFiles, Mode=OneWay}&quot; /&gt; &lt;DockPanel.Resources&gt;&#10;            &lt;Style TargetType=&quot;Label&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot;&gt;&#10;                    &lt;Setter.Value&gt;&#10;                        &lt;LinearGradientBrush EndPoint=&quot;1,1&quot; StartPoint=&quot;0,0&quot;&gt;&#10;                            &lt;GradientStop Color=&quot;##FF97E9E9&quot; Offset=&quot;1&quot; /&gt;&#10;                            &lt;GradientStop Color=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/LinearGradientBrush&gt;&#10;                    &lt;/Setter.Value&gt;&#10;                &lt;/Setter&gt;&#10;            &lt;/Style&gt;&#10;            &lt;Style TargetType=&quot;TextBlock&quot;&gt;&#10;                &lt;Setter Property=&quot;Foreground&quot;&gt;&#10;                    &lt;Setter.Value&gt;&#10;                        &lt;LinearGradientBrush EndPoint=&quot;1,1&quot; StartPoint=&quot;0,0&quot;&gt;&#10;                            &lt;GradientStop Color=&quot;##FF97E9E9&quot; Offset=&quot;1&quot; /&gt;&#10;                            &lt;GradientStop Color=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/LinearGradientBrush&gt;&#10;                    &lt;/Setter.Value&gt;&#10;                &lt;/Setter&gt;&#10;            &lt;/Style&gt;&#10;        &lt;/DockPanel.Resources&gt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="719:5291" ph="&lt;&lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к файлам:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding PhotoPath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt;&#10;                &lt;Button Command=&quot;{Binding SelectPhotoPathCommand}&quot; ToolTip=&quot;Выбрать путь, где находятся фотографии&quot;&#10;                        Grid.Column=&quot;2&quot;&gt;&#10;                    &lt;Viewbox&gt;&#10;                        &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource folder_ellipsisStyle0}&quot; Margin=&quot;5&quot;&#10;                              Stroke=&quot;##FF2CC8C8&quot; RenderTransformOrigin=&quot;0.455,0.455&quot; /&gt;&#10;                    &lt;/Viewbox&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt; &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к сохранению:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding SavePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt;&#10;                &lt;Button Command=&quot;{Binding SelectSavePathCommand}&quot; ToolTip=&quot;Выбрать путь, куда фотографии перенесутся&quot;&#10;                        Grid.Column=&quot;2&quot;&gt;&#10;                    &lt;Viewbox&gt;&#10;                        &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource folder_ellipsisStyle0}&quot; Margin=&quot;5&quot;&#10;                              Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                    &lt;/Viewbox&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt; &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Расширение файла:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding ExtensionFilter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                         Grid.Column=&quot;1&quot; ToolTip=&quot;Для нескольких расширений, разделить ;&quot; VerticalAlignment=&quot;Bottom&quot; /&gt;&#10;            &lt;/Grid&gt; &lt;CheckBox Margin=&quot;5&quot; Content=&quot;Искать в вложенных папках&quot;&#10;                      IsChecked=&quot;{Binding SearchInSubFolder, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                      IsEnabled=&quot;{Binding ProcessNotStarted, Mode=OneWay}&quot; /&gt; &lt;Grid Margin=&quot;5&quot; VerticalAlignment=&quot;Center&quot;&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;160&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Маска наименовая папки:&lt;/Label&gt;&#10;                &lt;TextBox Text=&quot;{Binding DirMask, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         ToolTip=&quot;{Binding DirMaskToolTip, Source={StaticResource Resources}, Mode=OneTime}&quot; /&gt;&#10;                &lt;TextBlock Text=&quot;{Binding SampleDirName, Mode=OneWay}&quot; Grid.Column=&quot;2&quot; TextAlignment=&quot;Left&quot;&#10;                           Margin=&quot;10,0,0,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;            &lt;/Grid&gt; &lt;CheckBox Margin=&quot;5&quot; Content=&quot;Перемещать файлы&quot;&#10;                      IsChecked=&quot;{Binding MoveFiles, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                      IsEnabled=&quot;{Binding ProcessNotStarted, Mode=OneWay}&quot; /&gt; &lt;Grid&gt;&#10;                &lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt;&#10;                &lt;Button Grid.Column=&quot;0&quot; Margin=&quot;5&quot; Command=&quot;{Binding StartProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource playStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Запуск&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt;&#10;                &lt;Button Grid.Column=&quot;1&quot; Margin=&quot;5&quot; Command=&quot;{Binding StopProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource stopStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Стоп&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt;&#10;            &lt;/Grid&gt; &lt;ProgressBar Value=&quot;{Binding ProgressValue, Mode=OneWay}&quot; Height=&quot;24&quot; Maximum=&quot;100&quot; Minimum=&quot;0&quot; Margin=&quot;5&quot; /&gt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="765:1533" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt; &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к файлам:&lt;/Label&gt; &lt;TextBox Text=&quot;{Binding PhotoPath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt; &lt;Button Command=&quot;{Binding SelectPhotoPathCommand}&quot; ToolTip=&quot;Выбрать путь, где находятся фотографии&quot;&#10;                        Grid.Column=&quot;2&quot;&gt;&#10;                    &lt;Viewbox&gt;&#10;                        &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource folder_ellipsisStyle0}&quot; Margin=&quot;5&quot;&#10;                              Stroke=&quot;##FF2CC8C8&quot; RenderTransformOrigin=&quot;0.455,0.455&quot; /&gt;&#10;                    &lt;/Viewbox&gt;&#10;                &lt;/Button&gt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="826:1038" ph="&lt;&lt;ColumnDefinition Width=&quot;130&quot; /&gt; &lt;ColumnDefinition /&gt; &lt;ColumnDefinition Width=&quot;32&quot; /&gt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="1172:1355" ph="&lt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="1372:1513" ph="&lt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="1547:2322" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition Width=&quot;32&quot; /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt; &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Путь к сохранению:&lt;/Label&gt; &lt;TextBox Text=&quot;{Binding SavePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         IsReadOnly=&quot;{Binding ProcessStarted}&quot; Margin=&quot;0,0,5,0&quot; /&gt; &lt;Button Command=&quot;{Binding SelectSavePathCommand}&quot; ToolTip=&quot;Выбрать путь, куда фотографии перенесутся&quot;&#10;                        Grid.Column=&quot;2&quot;&gt;&#10;                    &lt;Viewbox&gt;&#10;                        &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource folder_ellipsisStyle0}&quot; Margin=&quot;5&quot;&#10;                              Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                    &lt;/Viewbox&gt;&#10;                &lt;/Button&gt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="1608:1820" ph="&lt;&lt;ColumnDefinition Width=&quot;130&quot; /&gt; &lt;ColumnDefinition /&gt; &lt;ColumnDefinition Width=&quot;32&quot; /&gt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="1958:2141" ph="&lt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="2158:2302" ph="&lt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="2336:2938" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;130&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt; &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Расширение файла:&lt;/Label&gt; &lt;TextBox Text=&quot;{Binding ExtensionFilter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot;&#10;                         Grid.Column=&quot;1&quot; ToolTip=&quot;Для нескольких расширений, разделить ;&quot; VerticalAlignment=&quot;Bottom&quot; /&gt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="2397:2557" ph="&lt;&lt;ColumnDefinition Width=&quot;130&quot; /&gt; &lt;ColumnDefinition /&gt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="2707:2918" ph="&lt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="2952:3198" ph="&lt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="3212:3996" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition Width=&quot;160&quot; /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt; &lt;Label Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Center&quot;&gt;Маска наименовая папки:&lt;/Label&gt; &lt;TextBox Text=&quot;{Binding DirMask, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}&quot; Grid.Column=&quot;1&quot;&#10;                         ToolTip=&quot;{Binding DirMaskToolTip, Source={StaticResource Resources}, Mode=OneTime}&quot; /&gt; &lt;TextBlock Text=&quot;{Binding SampleDirName, Mode=OneWay}&quot; Grid.Column=&quot;2&quot; TextAlignment=&quot;Left&quot;&#10;                           Margin=&quot;10,0,0,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="3273:3474" ph="&lt;&lt;ColumnDefinition Width=&quot;160&quot; /&gt; &lt;ColumnDefinition /&gt; &lt;ColumnDefinition /&gt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="3617:3793" ph="&lt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="3810:3976" ph="&lt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="4010:4239" ph="&lt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="4253:5146" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                    &lt;ColumnDefinition /&gt;&#10;                &lt;/Grid.ColumnDefinitions&gt; &lt;Button Grid.Column=&quot;0&quot; Margin=&quot;5&quot; Command=&quot;{Binding StartProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource playStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Запуск&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt; &lt;Button Grid.Column=&quot;1&quot; Margin=&quot;5&quot; Command=&quot;{Binding StopProcessingCommand}&quot;&#10;                        HorizontalContentAlignment=&quot;Center&quot;&gt;&#10;                    &lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource stopStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Стоп&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;&#10;                &lt;/Button&gt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="4276:4424" ph="&lt;&lt;ColumnDefinition /&gt; &lt;ColumnDefinition /&gt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="4442:4777" ph="&lt;&lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource playStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Запуск&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="4601:4751" ph="&lt;&lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource playStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt; &lt;TextBlock Text=&quot;Запуск&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="4794:5126" ph="&lt;&lt;StackPanel Orientation=&quot;Horizontal&quot; Margin=&quot;5,0,5,0&quot;&gt;&#10;                        &lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource stopStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt;&#10;                        &lt;TextBlock Text=&quot;Стоп&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;&#10;                    &lt;/StackPanel&gt;.../&gt;" />
+            <marker date="1564826417689" expanded="true" signature="4952:5100" ph="&lt;&lt;Viewbox&gt;&#10;                            &lt;Path Stretch=&quot;Fill&quot; Data=&quot;{StaticResource stopStyle0}&quot; Margin=&quot;5&quot; Stroke=&quot;##FF2CC8C8&quot; /&gt;&#10;                        &lt;/Viewbox&gt; &lt;TextBlock Text=&quot;Стоп&quot; Margin=&quot;5,0,5,0&quot; VerticalAlignment=&quot;Center&quot; /&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
