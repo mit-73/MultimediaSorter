@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace MultimediaSorter.ViewModel
+namespace MultimediaSorter.ViewModels.Base
 {
     public abstract class BindableBase : INotifyPropertyChanged
     {

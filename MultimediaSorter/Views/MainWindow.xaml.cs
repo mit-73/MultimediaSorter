@@ -1,6 +1,6 @@
-﻿using MultimediaSorter.ViewModel;
+﻿using MultimediaSorter.ViewModels;
 
-namespace MultimediaSorter
+namespace MultimediaSorter.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

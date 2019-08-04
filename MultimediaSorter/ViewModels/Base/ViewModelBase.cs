@@ -1,4 +1,4 @@
-namespace MultimediaSorter.ViewModel
+namespace MultimediaSorter.ViewModels.Base
 {
     public abstract class ViewModelBase : BindableBase
     {

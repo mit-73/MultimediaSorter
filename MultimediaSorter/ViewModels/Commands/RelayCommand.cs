@@ -1,7 +1,7 @@
 using System;
 using System.Windows.Input;
 
-namespace MultimediaSorter.Commands
+namespace MultimediaSorter.ViewModels.Commands
 {
     public class RelayCommand : ICommand
     {
