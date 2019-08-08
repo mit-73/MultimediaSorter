@@ -33,17 +33,7 @@
           <e p="Commands" t="Include">
             <e p="RelayCommand.cs" t="Include" />
           </e>
-          <e p="CountFilesViewModel.cs" t="Include" />
-          <e p="FilterViewModel.cs" t="Include" />
-          <e p="GetFilesViewModel.cs" t="Include" />
           <e p="MainViewModel.cs" t="Include" />
-          <e p="MaskViewModel.cs" t="Include" />
-          <e p="MoveFilesViewModel.cs" t="Include" />
-          <e p="ProcessingViewModel.cs" t="Include" />
-          <e p="SaveFilesViewModel.cs" t="Include" />
-          <e p="SearchFilesViewModel.cs" t="Include" />
-          <e p="SortingViewModel.cs" t="Include" />
-          <e p="ValidationFilesViewModel.cs" t="Include" />
         </e>
         <e p="Views" t="Include">
           <e p="MainWindow.xaml" t="Include" />

@@ -2,35 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="965466ee-e8bd-47cb-881a-1374da1b73a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MultimediaSorter/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultimediaSorter/Services/FileDialogService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultimediaSorter/Services/IFileDialogService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultimediaSorter/ViewModels/CountFilesViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultimediaSorter/ViewModels/FilterViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultimediaSorter/ViewModels/GetFilesViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultimediaSorter/ViewModels/MaskViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultimediaSorter/ViewModels/MoveFilesViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultimediaSorter/ViewModels/ProcessingViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultimediaSorter/ViewModels/SaveFilesViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultimediaSorter/ViewModels/SearchFilesViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultimediaSorter/ViewModels/SortingViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultimediaSorter/ViewModels/ValidationFilesViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/Views/MainWindow.baml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/Views/MainWindow.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/Views/MainWindow.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MultimediaSorter/.idea/dictionaries/Home.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultimediaSorter/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultimediaSorter/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultimediaSorter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultimediaSorter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/Commands/RelayCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/ViewModels/Commands/RelayCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/Helpers/FileManagement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/Helpers/HandlesEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/Model/MainModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/Models/MainModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultimediaSorter/MultimediaSorter.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/MultimediaSorter.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/View/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/Views/MainWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/View/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/Views/MainWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModel/BindableBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/ViewModels/Base/BindableBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModel/MainViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/ViewModels/MainViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModel/ViewModelBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/ViewModels/Base/ViewModelBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/CountFilesViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/FilterViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/GetFilesViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/MainViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/ViewModels/MainViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/MaskViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/MoveFilesViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/ProcessingViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/SaveFilesViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/SearchFilesViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/SortingViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/ValidationFilesViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/Views/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/Views/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/Views/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/Views/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/Views/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/Views/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/Views/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/Views/MainWindow.g.i.cs" afterDir="false" />
     </list>
     <list id="ec557f02-5864-4eff-8dd2-f749e19be4fd" name="init" comment="init">
       <changelist_data name="MiT" email="73ilnar73@gmail.com" date="1564822246000" />
@@ -84,16 +74,6 @@
     <setting file="file://$PROJECT_DIR$/../GoodbyeDPI GUI/GoodbyeDPI GUI/Models/GoodbyeDPI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../GoodbyeDPI GUI/GoodbyeDPI GUI/ViewModels/MainViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../GoodbyeDPI GUI/GoodbyeDPI GUI/Models/DNS.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MultimediaSorter/ViewModels/CountFilesViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MultimediaSorter/ViewModels/SortingViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MultimediaSorter/ViewModels/ProcessingViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MultimediaSorter/ViewModels/SaveFilesViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MultimediaSorter/ViewModels/GetFilesViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MultimediaSorter/ViewModels/ValidationFilesViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MultimediaSorter/ViewModels/SearchFilesViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MultimediaSorter/ViewModels/MoveFilesViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MultimediaSorter/ViewModels/FilterViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MultimediaSorter/ViewModels/MaskViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../GoodbyeDPI GUI/GoodbyeDPI GUI/ViewModels/StartViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MultimediaSorter/Services/FileDialogService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MultimediaSorter/Services/IFileDialogService.cs" root0="FORCE_HIGHLIGHTING" />
@@ -117,15 +97,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MultimediaSorter/Model/MainModel.cs" />
-        <option value="$PROJECT_DIR$/MultimediaSorter/MultimediaSorter.csproj" />
         <option value="$PROJECT_DIR$/MultimediaSorter/Properties/Resources.Designer.cs" />
         <option value="$PROJECT_DIR$/MultimediaSorter/Theme.xaml" />
         <option value="$PROJECT_DIR$/MultimediaSorter/Theme/Core.xaml" />
         <option value="$PROJECT_DIR$/MultimediaSorter/Theme/Brushes.xaml" />
         <option value="$PROJECT_DIR$/MultimediaSorter/Theme/Icons.xaml" />
         <option value="$PROJECT_DIR$/MultimediaSorter/Properties/Settings.settings" />
-        <option value="$PROJECT_DIR$/MultimediaSorter/App.xaml" />
         <option value="$PROJECT_DIR$/MultimediaSorter/View/MainWindow.xaml.cs" />
         <option value="$PROJECT_DIR$/MultimediaSorter/ViewModel/ViewModelBase.cs" />
         <option value="$PROJECT_DIR$/MultimediaSorter/Properties/Settings.Designer.cs" />
@@ -160,12 +137,15 @@
         <option value="$PROJECT_DIR$/MultimediaSorter/ViewModels/Base/BindableBase.cs" />
         <option value="$PROJECT_DIR$/MultimediaSorter/ViewModels/Commands/RelayCommand.cs" />
         <option value="$PROJECT_DIR$/MultimediaSorter/ViewModels/CountFilesViewModel.cs" />
+        <option value="$PROJECT_DIR$/MultimediaSorter/App.xaml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/MultimediaSorter/Services/Grouping.cs" />
         <option value="$PROJECT_DIR$/MultimediaSorter/ViewModels/GetFilesViewModel.cs" />
         <option value="$PROJECT_DIR$/MultimediaSorter/ViewModels/SaveFilesViewModel.cs" />
+        <option value="$PROJECT_DIR$/MultimediaSorter/ViewModels/SortingViewModel.cs" />
         <option value="$PROJECT_DIR$/MultimediaSorter/ViewModels/ValidationFilesViewModel.cs" />
         <option value="$PROJECT_DIR$/MultimediaSorter/ViewModels/MaskViewModel.cs" />
         <option value="$PROJECT_DIR$/MultimediaSorter/ViewModels/ProcessingViewModel.cs" />
-        <option value="$PROJECT_DIR$/MultimediaSorter/ViewModels/SortingViewModel.cs" />
         <option value="$PROJECT_DIR$/MultimediaSorter/ViewModels/MainViewModel.cs" />
         <option value="$PROJECT_DIR$/MultimediaSorter/Views/MainWindow.xaml" />
       </list>
@@ -189,7 +169,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -236,7 +216,8 @@
       <workItem from="1564910832259" duration="347000" />
       <workItem from="1564911501219" duration="99000" />
       <workItem from="1564911875792" duration="173000" />
-      <workItem from="1564939095140" duration="5347000" />
+      <workItem from="1564939095140" duration="5832000" />
+      <workItem from="1565249209248" duration="3733000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1564822246468</created>
@@ -315,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564846235235</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Refactoring">
+      <created>1564944901140</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1564944901140</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +351,8 @@
     <MESSAGE value="Add RelayCommand" />
     <MESSAGE value="Add Commands" />
     <MESSAGE value="Add DirMaskToolTip" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add DirMaskToolTip" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1877" height="425" key="GridCell.Tab.0.bottom" />
@@ -406,14 +395,16 @@
     <state width="1877" height="425" key="GridCell.Tab.4.left/1920.1080" />
     <state width="1877" height="425" key="GridCell.Tab.4.right" />
     <state width="1877" height="425" key="GridCell.Tab.4.right/1920.1080" />
-    <state x="540" y="246" key="IDE.errors.dialog" />
-    <state x="540" y="246" key="IDE.errors.dialog/1920.1080" />
+    <state x="540" y="246" width="840" height="629" key="IDE.errors.dialog" />
+    <state x="540" y="246" width="840" height="629" key="IDE.errors.dialog/1920.1080" />
     <state x="670" y="200" key="RiderGenerateDialog" />
     <state x="670" y="200" key="RiderGenerateDialog/1920.1080" />
-    <state x="537" y="143" key="SettingsEditor" />
-    <state x="537" y="143" key="SettingsEditor/1920.1080" />
+    <state x="406" y="273" width="1299" height="716" key="SettingsEditor" />
+    <state x="406" y="273" width="1299" height="716" key="SettingsEditor/1920.1080" />
     <state x="712" y="225" key="VCS.ChangeListViewerDialog" />
     <state x="712" y="225" key="VCS.ChangeListViewerDialog/1920.1080" />
+    <state x="406" y="207" width="989" height="647" key="Vcs.Push.Dialog" />
+    <state x="406" y="207" width="989" height="647" key="Vcs.Push.Dialog/1920.1080" />
     <state x="623" y="225" key="search.everywhere.popup" />
     <state x="623" y="225" key="search.everywhere.popup/1920.1080" />
   </component>
