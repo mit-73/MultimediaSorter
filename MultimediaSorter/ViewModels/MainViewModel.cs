@@ -25,6 +25,8 @@ namespace MultimediaSorter.ViewModels
             _extensionFilter = Settings.Default.ExtensionFilter;
             _dirMask = Settings.Default.DirMask;
             _dirMaskToolTip = Resources.DirMaskToolTip;
+            _rangeFolders = Settings.Default.RangeFolders;
+            _rangeFoldersDate = Settings.Default.RangeFoldersDate;
 
             _processedFiles = new ObservableCollection<string>();
             ProcessNotStarted = true;
@@ -128,6 +130,32 @@ namespace MultimediaSorter.ViewModels
         {
             get => _dirMaskToolTip;
             set => SetProperty(ref _dirMaskToolTip, value);
+        }
+
+        private bool _rangeFolders;
+
+        public bool RangeFolders
+        {
+            get => _rangeFolders;
+            set
+            {
+                SetProperty(ref _rangeFolders, value);
+                Settings.Default.RangeFolders = value;
+                Settings.Default.Save();
+            }
+        }
+
+        private string _rangeFoldersDate;
+
+        public string RangeFoldersDate
+        {
+            get => _rangeFoldersDate;
+            set
+            {
+                SetProperty(ref _rangeFoldersDate, value);
+                Settings.Default.RangeFoldersDate = value;
+                Settings.Default.Save();
+            }
         }
 
         private double _progressValue;
@@ -268,29 +296,43 @@ namespace MultimediaSorter.ViewModels
             NeedStop = false;
             var dirInfo = new DirectoryInfo(FilePath);
             var files = new List<FileInfo>();
-            var extensions = ExtensionFilter.Split(new[]
-            {
-                ';'
-            }, StringSplitOptions.RemoveEmptyEntries);
-            if (!extensions.Any())
-                return;
+            var extensions = ExtensionFilter.Split(new[] {';'}, StringSplitOptions.RemoveEmptyEntries);
+            if (!extensions.Any()) return;
+
             Array.ForEach(extensions,
                 ext => files.AddRange(dirInfo.GetFiles(ext,
                     SearchInSubFolder ? SearchOption.AllDirectories : SearchOption.TopDirectoryOnly)));
+
             FileCount = files.Count;
+
             for (var i = 0; i < files.Count; i++)
             {
-                if (NeedStop)
-                    break;
+                if (NeedStop) break;
+
                 try
                 {
                     var path = Path.Combine(SavePath, GetFolderName(files[i].FullName));
-                    if (!Directory.Exists(path))
-                        Directory.CreateDirectory(path);
-                    if (MoveFiles)
-                        File.Move(files[i].FullName, Path.Combine(path, files[i].Name));
+                    
+                    if (RangeFolders)
+                    {
+                        for (int a = 0, b = 0;
+                            (a < Convert.ToInt32(RangeFoldersDate)) && (b > Convert.ToInt32(RangeFoldersDate));
+                            a++, b++)
+                        {
+                            if (Directory.Exists(path)) // Todo edit
+                            {
+                                if (MoveFiles) File.Move(files[i].FullName, Path.Combine(path, files[i].Name));
+                                else File.Copy(files[i].FullName, Path.Combine(path, files[i].Name), false);
+                                break;
+                            }
+                        }
+                    }
                     else
-                        File.Copy(files[i].FullName, Path.Combine(path, files[i].Name), false);
+                    {
+                        if (!Directory.Exists(path)) Directory.CreateDirectory(path);
+                        if (MoveFiles) File.Move(files[i].FullName, Path.Combine(path, files[i].Name));
+                        else File.Copy(files[i].FullName, Path.Combine(path, files[i].Name), false);
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -312,14 +354,17 @@ namespace MultimediaSorter.ViewModels
                     fileStream.Close();
                     var fileInfo = new FileInfo(filePath);
 
+
                     if (fileInfo.CreationTime >= fileInfo.LastWriteTime)
                     {
                         return fileInfo.LastWriteTime.ToString(DirMask);
                     }
+
                     else if (fileInfo.CreationTime <= fileInfo.LastWriteTime)
                     {
                         return fileInfo.CreationTime.ToString(DirMask);
                     }
+
                     else return fileInfo.CreationTime.ToString(DirMask);
                 }
                 catch

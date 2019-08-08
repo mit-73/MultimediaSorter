@@ -14,6 +14,12 @@
     <Setting Name="DirMask" Type="System.String" Scope="User">
       <Value Profile="(Default)">MM.yyyy</Value>
     </Setting>
+    <Setting Name="RangeFolders" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="RangeFoldersDate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
     <Setting Name="ExtensionFilter" Type="System.String" Scope="User">
       <Value Profile="(Default)">*.jpg</Value>
     </Setting>

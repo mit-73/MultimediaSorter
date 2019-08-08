@@ -4,8 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MultimediaSorter"
-        mc:Ignorable="d"
-        Title="MainWindow" MinHeight="500" MinWidth="600" Height="500" Width="600">
+        mc:Ignorable="d" Title="MainWindow" MinHeight="500" MinWidth="600" Height="500" Width="600">
     <Window.TaskbarItemInfo>
         <TaskbarItemInfo ProgressState="{Binding ProgressState, Mode=OneWay}"
                          ProgressValue="{Binding ProgressPrecent, Mode=OneWay}" />
@@ -23,7 +22,7 @@
                 <Label Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center">Путь к файлам:</Label>
                 <TextBox Text="{Binding FilePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1"
                          IsReadOnly="{Binding ProcessStarted}" Margin="0,0,5,0" />
-                <Button Command="{Binding SelectFilePathCommand}" ToolTip="Выбрать путь, где находятся фотографии"
+                <Button Command="{Binding SelectFilePathCommand}" ToolTip="Выбрать путь, где находятся файлы"
                         Grid.Column="2" />
             </Grid>
 
@@ -37,7 +36,7 @@
                 <Label Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center">Путь к сохранению:</Label>
                 <TextBox Text="{Binding SavePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1"
                          IsReadOnly="{Binding ProcessStarted}" Margin="0,0,5,0" />
-                <Button Command="{Binding SelectSavePathCommand}" ToolTip="Выбрать путь, куда фотографии перенесутся"
+                <Button Command="{Binding SelectSavePathCommand}" ToolTip="Выбрать путь, куда файлы перенесутся"
                         Grid.Column="2" />
             </Grid>
 
@@ -68,6 +67,20 @@
                          ToolTip="{Binding DirMaskToolTip, Mode=OneTime}" />
                 <TextBlock Text="{Binding SampleDirName, Mode=OneWay}" Grid.Column="2" TextAlignment="Left"
                            Margin="10,0,0,0" VerticalAlignment="Center" />
+            </Grid>
+
+            <Grid Margin="5" VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="160" />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <CheckBox Grid.Column="0" Margin="5" HorizontalAlignment="Left" VerticalAlignment="Center" Content="Range Folders"
+                          IsChecked="{Binding RangeFolders, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                          IsEnabled="{Binding ProcessNotStarted, Mode=OneWay}" />
+                <TextBox Grid.Column="1"
+                         Text="{Binding RangeFoldersDate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                         ToolTip="RangeFolders" />
             </Grid>
 
             <CheckBox Margin="5" Content="Перемещать файлы"

@@ -71,7 +71,7 @@ namespace MultimediaSorter.Properties {
         ///yy - Год, в диапазоне от 00 до 99.
         ///yyy - Год в виде как минимум трех цифр.
         ///yyyy - Год в виде четырехзначного числа.
-        ///&quot;строка&quot; или &apos;строка&apos; - Буквенный разделитель строк..
+        ///&apos;строка&apos; - Буквенный разделитель строк..
         /// </summary>
         internal static string DirMaskToolTip {
             get {

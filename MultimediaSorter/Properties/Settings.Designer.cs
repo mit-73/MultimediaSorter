@@ -73,6 +73,30 @@ namespace MultimediaSorter.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool RangeFolders {
+            get {
+                return ((bool)(this["RangeFolders"]));
+            }
+            set {
+                this["RangeFolders"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string RangeFoldersDate {
+            get {
+                return ((string)(this["RangeFoldersDate"]));
+            }
+            set {
+                this["RangeFoldersDate"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("*.jpg")]
         public string ExtensionFilter {
             get {
