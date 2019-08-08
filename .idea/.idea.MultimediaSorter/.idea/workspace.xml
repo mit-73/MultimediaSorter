@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="965466ee-e8bd-47cb-881a-1374da1b73a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MultimediaSorter/.idea/dictionaries/Home.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultimediaSorter/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultimediaSorter/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MultimediaSorter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultimediaSorter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultimediaSorter/MultimediaSorter.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/MultimediaSorter.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/CountFilesViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/FilterViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/GetFilesViewModel.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/MainViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/ViewModels/MainViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/MaskViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/MoveFilesViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/ProcessingViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/SaveFilesViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/SearchFilesViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/SortingViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/ViewModels/ValidationFilesViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/Views/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/Views/MainWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/Views/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/Views/MainWindow.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/Views/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/Views/MainWindow.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/Views/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MultimediaSorter/obj/Debug/Views/MainWindow.g.i.cs" afterDir="false" />
     </list>
     <list id="ec557f02-5864-4eff-8dd2-f749e19be4fd" name="init" comment="init">
       <changelist_data name="MiT" email="73ilnar73@gmail.com" date="1564822246000" />
@@ -146,8 +131,8 @@
         <option value="$PROJECT_DIR$/MultimediaSorter/ViewModels/ValidationFilesViewModel.cs" />
         <option value="$PROJECT_DIR$/MultimediaSorter/ViewModels/MaskViewModel.cs" />
         <option value="$PROJECT_DIR$/MultimediaSorter/ViewModels/ProcessingViewModel.cs" />
-        <option value="$PROJECT_DIR$/MultimediaSorter/ViewModels/MainViewModel.cs" />
         <option value="$PROJECT_DIR$/MultimediaSorter/Views/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/MultimediaSorter/ViewModels/MainViewModel.cs" />
       </list>
     </option>
   </component>
@@ -217,7 +202,7 @@
       <workItem from="1564911501219" duration="99000" />
       <workItem from="1564911875792" duration="173000" />
       <workItem from="1564939095140" duration="5832000" />
-      <workItem from="1565249209248" duration="3733000" />
+      <workItem from="1565249209248" duration="4955000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1564822246468</created>
@@ -303,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564944901140</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="rollback and refactoring">
+      <created>1565253159404</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1565253159404</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +344,8 @@
     <MESSAGE value="Add Commands" />
     <MESSAGE value="Add DirMaskToolTip" />
     <MESSAGE value="Refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
+    <MESSAGE value="rollback and refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="rollback and refactoring" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1877" height="425" key="GridCell.Tab.0.bottom" />

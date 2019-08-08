@@ -8,6 +8,7 @@ using System.Windows;
 using System.Windows.Shell;
 using System.Windows.Threading;
 using Microsoft.Win32;
+using Ookii.Dialogs.Wpf;
 using MultimediaSorter.Properties;
 using MultimediaSorter.ViewModels.Base;
 using MultimediaSorter.ViewModels.Commands;
@@ -237,22 +238,24 @@ namespace MultimediaSorter.ViewModels
 
         public void SelectFilePath()
         {
-            var openFileDialog = new OpenFileDialog();
-            openFileDialog.Title = Resources.SelectFilePath;
-            openFileDialog.FileName = FilePath;
+            var openFileDialog = new VistaFolderBrowserDialog();
+            openFileDialog.Description = Resources.SelectFilePath;
+            openFileDialog.SelectedPath = FilePath;
+            openFileDialog.ShowNewFolderButton = true;
             var result = openFileDialog.ShowDialog();
             if (result == false) return;
-            FilePath = openFileDialog.FileName;
+            FilePath = openFileDialog.SelectedPath;
         }
 
         public void SelectSavePath()
         {
-            var saveFileDialog = new SaveFileDialog();
-            saveFileDialog.Title = Resources.SelectSaveFilePath;
-            saveFileDialog.FileName = SavePath;
+            var saveFileDialog = new VistaFolderBrowserDialog();
+            saveFileDialog.Description = Resources.SelectSaveFilePath;
+            saveFileDialog.SelectedPath = SavePath;
+            saveFileDialog.ShowNewFolderButton = true;
             var result = saveFileDialog.ShowDialog();
             if (result == false) return;
-            SavePath = saveFileDialog.FileName;
+            SavePath = saveFileDialog.SelectedPath;
         }
 
         public Task StartSortingAsync()
